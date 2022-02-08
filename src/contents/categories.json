@@ -1,0 +1,37 @@
+{
+    "installing-updating": [
+        "install-ios",
+        "install-android",
+        "testflight-update",
+        "update-keep-collection",
+        "sideload-expire"
+    ],
+    "getting-started": [
+        "servers",
+        "offset-basic",
+        "note-speed",
+        "change-item",
+        "find"
+    ],
+    "advanced": [
+        "offset-advanced",
+        "chart",
+        "studio",
+        "judgment-color",
+        "judgment-error-color",
+        "combo-color",
+        "ui",
+        "free-up-space"
+    ],
+    "troubleshooting": [
+        "all-miss",
+        "black-screen",
+        "sweet-potato-homepage",
+        "sekai-viewer-slow"
+    ],
+    "miscellaneous": [
+        "what-is",
+        "magic",
+        "genre"
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "what-is": {
+        "title": "What is Sonolus?",
+        "body": "Unlike a traditional rhythm game, **Sonolus is more like a rhythm game framework**.\nAnyone can create their own unique rhythm game modes in Sonolus, or host their own servers for other people to join and enjoy!"
+    },
+    "install-ios": {
+        "title": "Install Sonolus on iOS",
+        "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight>\n**Full** until 2022/03/27, no guarantee you can get in.\n\n**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nSideload with PC is the most reliable method. Currently there is no free sideload without PC option.\nYou **DO NOT** need to jailbreak to sideload."
+    },
+    "install-android": {
+        "title": "Install Sonolus on Android",
+        "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/android.html#sideload>\nIf you are having trouble installing, try Google “`your device name` sideload” and follow guides."
+    },
+    "servers": {
+        "title": "How do I play songs? Where can I find servers?",
+        "body": "**Simply add whichever server you want to play, you can find a list of them here: <#710550213231640627>**\nTo add it, click __Custom Server__ > __Add__, give it a name (anything you want), and paste the server link (`https://...`) into __Address__."
+    },
+    "note-speed": {
+        "title": "How do I change note speed?",
+        "body": "Before you start playing a level, click __Configuration__ > __Options__ > __Note Speed__."
+    },
+    "offset-basic": {
+        "title": "My game is off beat/out of sync!",
+        "body": "You need to adjust your __Device Audio Offset__ (keep other offsets at 0)\nOffset is different for every device. **iOS**: around 50. **Android**: around 50 to 200.\n\nTo properly adjust offset, turn on __Autoplay__, pay attention to see if audio and visual line up, and adjust accordingly."
+    },
+    "offset-advanced": {
+        "title": "What does each offset do exactly?",
+        "body": "__Device Audio Offset__: audio offset of your device. Use this to sync up audio and visual.\n__Level Audio Offset__: extra audio offset for this level, should only be used when the level is poorly sync'd.\n__Server Audio Offset__: extra audio offset for all levels in a server, should only be used when the entire server is poorly sync'd.\n__Device Input Offset__: input offset of your device. Use this to sync up input.\n__Engine Input Offset__: extra input offset for all levels using this engine, should only be used when you have trouble with the engine."
+    },
+    "all-miss": {
+        "title": "I'm getting all Miss!",
+        "body": "Check both your __Device Input Offset__ and __Engine Input Offset__. If you don't know what they are for, simply set them to 0."
+    },
+    "change-item": {
+        "title": "How do I change skin/background/SFX/particle effect?",
+        "body": "Before you start playing a level, click __Configuration__ and change them in there.\nYou can also select a skin from a different server, for example using Project Sekai skin for Bandori levels."
+    },
+    "chart": {
+        "title": "How do I make my own charts?",
+        "body": "**Bestdori**: <https://bestdori.com/community/charts>\n**SweetPotato**: <https://wiki-en.purplepalette.net/create-charts> (another editor: <https://paletteworks.mkpo.li/edit>)"
+    },
+    "studio": {
+        "title": "How do I make my own skins/background/SFX?",
+        "body": "https://studio.sonolus.com/"
+    },
+    "judgment-color": {
+        "title": "How do I make Perfect/Great/Good/Miss have different colors?",
+        "body": "__Settings__ > __UI__ > __Perfect/Great/Good/Miss Judgment Color__."
+    },
+    "judgment-error-color": {
+        "title": "How do I make early/late have different colors?",
+        "body": "__Settings__ > __UI__ > __Positive/Negative Judgment Error Color__."
+    },
+    "combo-color": {
+        "title": "How do I make All Perfect/Full Combo/Pass/Fail have different colors?",
+        "body": "__Settings__ > __UI__ > __All Perfect/Full Combo/Pass/Fail Combo Color__."
+    },
+    "ui": {
+        "title": "Pause button is too small/how do I customize game UI?",
+        "body": "Before you start playing a level, click __Configuration__ > __UI__. You can adjust the type, size, transparency, animation."
+    },
+    "genre": {
+        "title": "Where can I find this genre of songs?",
+        "body": "We don't know, but check out some servers in <#710550213231640627> and maybe you will find what you like!"
+    },
+    "magic": {
+        "title": "The game looked different on the YouTube videos i saw, how do I make it look like that?",
+        "body": "You've been duped by movie magic. Either they're using private asset servers or they're editing it in post."
+    },
+    "sweet-potato-homepage": {
+        "title": "Project Sekai Fanmade server (SweetPotato) link doesn't work?",
+        "body": "Their server currently does not have a homepage, however it is perfectly playable. Simply add it into your Sonolus app and you can play."
+    },
+    "sekai-viewer-slow": {
+        "title": "New songs in Project Sekai official chart server are not working.",
+        "body": "For newly added songs, it takes some time for Sekai Viewer to process them. Please wait for a bit and they will be ready."
+    },
+    "testflight-update": {
+        "title": "I can't update Sonolus on TestFlight.",
+        "body": "Make sure you are currently using the same Apple ID as the one when you first installed Sonolus."
+    },
+    "update-keep-collection": {
+        "title": "If I update Sonolus, will I lose my collections?",
+        "body": "No, as long as you don't uninstall but simply install on top of it, everything should be all safe."
+    },
+    "sideload-expire": {
+        "title": "I sideloaded Sonolus on iOS, it stopped working today.",
+        "body": "A signature lasts only 7 days, once expired you need to sign the `.ipa` file again and sideload it. Some sideloading tools (AltStore for example) will do this for you automatically."
+    },
+    "free-up-space": {
+        "title": "Sonolus is taking up too much space, what do I do?",
+        "body": "__Settings__ > __Repository__ > __Manage__ > __Delete__, it should free up lots of space (your collections are safe)"
+    },
+    "black-screen": {
+        "title": "My Sonolus is completely black.",
+        "body": "Go to level configuration and check vertical/horizontal stage cover and make sure it's at 0%.\nIf you are still seeing black screen, it's a bug on some Android devices (particularly old or weak devices) and unfortunately yours is affected too. If you want to help fixing the bug, please head to #help-and-support and report it."
+    },
+    "find": {
+        "title": "I want to find this level I saw in a YouTube video, how?",
+        "body": "Go to that server, and search any text you can see in the video: song name, artists name, author name, `#ID`, description."
+    }
+}
