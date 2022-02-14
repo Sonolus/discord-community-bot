@@ -1,0 +1,102 @@
+{
+  "what-is": {
+    "title": "Apa itu Sonolus?",
+    "body": "Tidak seperti ritme game pada umumnya, **Sonolus lebih seperti framework ritme game**.\nSiapa saja bisa membuat mode ritme game unik mereka sendiri di Sonolus, atau meng-host server mereka sendiri untuk orang lain bergabung dan menikmatinya!"
+  },
+  "install-ios": {
+    "title": "Install Sonolus di iOS",
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/id/installing/ios.html#apple-s-testflight>\n**Penuh** sampai 2022/03/27, tidak ada jaminan Anda bisa mendapatkannya.\n\n**Sideload**: <https://wiki.sonolus.com/getting-started/id/installing/ios.html#sideload-with-pc>\nSideload dengan PC merupakan metode yang paling dapat diandalkan. Saat ini tidak ada pilihan sideload tanpa PC yang gratis.\nAnda **TIDAK** membutuhkan jailbreak untuk sideload."
+  },
+  "install-android": {
+    "title": "Install Sonolus di Android",
+    "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/id/installing/android.html#sideload>\nJika Anda memiliki masalah saat menginstall, coba Google \"`nama perangkat Anda` sideload\" dan ikuti panduannya."
+  },
+  "servers": {
+    "title": "Bagaimana Saya memainkan lagu? Dimana saya menemukan servernya?",
+    "body": "**Hanya dengan menambahkan server mana yang ingin Anda mainkan, Anda dapat menemukannya di sini: <#710550213231640627>**\nUntuk menambahkannya, klik __Kustom Server__ > __Tambah__, berikan nama (bebas namanya), dan tempel link server (`https://...`) menjadi __Alamat__."
+  },
+  "note-speed": {
+    "title": "Bagaimana Saya mengubah kecepatan note?",
+    "body": "Sebelum Anda memulai bermain, klik __Konfigurasi__ > __Pengaturan__ > __Kecepatan Note__."
+  },
+  "offset-basic": {
+    "title": "Saat bermain nggak sinkron antara suara tap dan musiknya!",
+    "body": "Anda dapat mengatur __Offset Audio Perangkat__ (biarkan offset yang lain tetap 0)\nOffset berbeda pada setiap perangkat.\n**iOS**: sekitar 50. **Android**: sekitar 50 hingga 200.\n\nUntuk mengetahui pengaturan offset dengan benar, nyalakan __Main Otomatis__, dan perhatikan jika audio dan notenya sudah sesuai atau belum."
+  },
+  "offset-advanced": {
+    "title": "Apa sebenarnya yang dilakukan setiap offset?",
+    "body": "__Offset Audio Perangkat__: offset audio pada perangkat Anda. Gunakan ini untuk mengsinkronkan audio dan visual.\n__Offset Audio Level__: offset audio ekstra untuk level ini, hanya digunakan saat level tidak disinkronkan dengan baik.\n__Offset Audio Server__: offset audio ekstra untuk semua level di server, hanya digunakan saat semua level di server tidak disinkronkan dengan baik.\n__Offset Input Perangkat__: offset input pada perangkat Anda. Gunakan ini untuk mengsinkronkan input.\n__Offset Input Mesin__: offset input ekstra untuk semua level menggunakan mesin ini, hanya boleh digunakan ketika Anda mengalami masalah dengan mesin."
+  },
+  "all-miss": {
+    "title": "Aku main kenapa Miss semua!",
+    "body": "Cek __Offset Input Perangkat__ dan __Offset Input Mesin__ Anda. Jika Anda tidak tahu kegunaan mereka, aturlah offset tersebut tetap 0."
+  },
+  "change-item": {
+    "title": "Bagaimana Saya mengganti skin/latar/SFX/efek partikel?",
+    "body": "Sebelum Anda memainkan sebuah level, klik __Konfigurasi__ dan ubah mereka disana.\nAnda juga bisa memilih skin dari server yang berbeda, sebagai contoh menggunakan skin Project Sekai di level Bandori."
+  },
+  "chart": {
+    "title": "Bagaimana membuat chart Saya sendiri?",
+    "body": "**Bestdori**: <https://bestdori.com/community/charts>\n**SweetPotato**: <https://wiki-en.purplepalette.net/create-charts> (editor lainnya: <https://paletteworks.mkpo.li/edit>)"
+  },
+  "studio": {
+    "title": "Bagaimana membuat skin/latar/SFX Saya sendiri?",
+    "body": "https://studio.sonolus.com/"
+  },
+  "judgment-color": {
+    "title": "Bagaimana saya mengubah Perfect/Great/Good/Miss menjadi warna yang berbeda?",
+    "body": "__Pengaturan__ > __UI__ > __Warna Penilaian Perfect/Great/Good/Miss__."
+  },
+  "judgment-error-color": {
+    "title": "Bagimana saya membuat cepat/lambat menjadi warna yang berbeda?",
+    "body": "__Pengaturan__ > __UI__ > __Warna Penilaian Error Positive/Negative__."
+  },
+  "combo-color": {
+    "title": "Bagaimana saya membuat Perfect/Full Combo/Pass/Fail menjadi warna yang berbeda?",
+    "body": "__Settings__ > __UI__ > __Warna All Perfect/Full Combo/Pass/Fail__."
+  },
+  "ui": {
+    "title": "Tombol pause sangat kecil/bagaimana saya mengkustomisasi UI?",
+    "body": "Sebelum Anda memainkan sebuah level, klik __Konfigurasi__ > __UI__. Anda dapat mengatur tipe, ukuran, transparansi, animasi."
+  },
+  "genre": {
+    "title": "Dimana saya mencari genre dari suatu lagu?",
+    "body": "Kami tidak tahu, tapi coba cek dari server disini  <#710550213231640627> dan mungkin Anda dapat menemukan yang Anda inginkan!"
+  },
+  "magic": {
+    "title": "Gamenya berbeda dari video Youtube yang Saya lihat, bagaimana saya membuatnya seperti itu?",
+    "body": "Anda telah ditipu oleh keajaiban film. Entah mereka menggunakan server aset pribadi atau mereka telah mengeditnya."
+  },
+  "sweet-potato-homepage": {
+    "title": "Link Server Fanmade Project Sekai (SweetPotato) tidak bekerja?",
+    "body": "Server mereka saat ini tidak mempunyai halaman beranda, namun itu bisa dimainkan dengan sempurna. Cukup tambahkan ke aplikasi Sonolus Anda dan Anda dapat memainkannya."
+  },
+  "sekai-viewer-slow": {
+    "title": "Lagu baru di server official Project Sekai tidak bekerja.",
+    "body": "Untuk lagu yang baru ditambahkan, itu membutuhkan waktu untuk Sekai Viewer memprosesnya. Tolong untuk menunggu sebentar dan mereka siap untuk dimainkan."
+  },
+  "testflight-update": {
+    "title": "Saya tidak bisa memperbaharui Sonolus di TestFlight.",
+    "body": "Pastikan Anda menggunakan Apple ID yang sama dengan saat Anda menginstall Sonolus untuk pertama kalinya."
+  },
+  "update-keep-collection": {
+    "title": "Jisa Saya memperbaharui Sonolus, apakah Saya kehilanggan koleksi saya?",
+    "body": "Tidak, selama Anda tidak meng-uninstall tetapi hanya menimpa install-an nya, semuanya akan aman."
+  },
+  "sideload-expire": {
+    "title": "Saya sideload Sonolus di iOS, tetapi berhenti bekerja hari ini.",
+    "body": "Sideload hanya bertahan 7 hari, jika sudah expired, Anda perlu membuat file `.ipa` lagi dan sideload ulang. Untuk beberapa alat sideload (seperti AltStore) akan melakukan ini secara otomatis."
+  },
+  "free-up-space": {
+    "title": "Sonolus terlalu memakan penyimpanan, bagaimana yang harus saya lakukan?",
+    "body": "__Pengaturan__ > __Repositori__ > __Atur__ > __Hapus__, ini seharusnya membuat penyimpanan lebih berkurang (koleksi Anda tetap aman)"
+  },
+  "black-screen": {
+    "title": "Sonolus saya hitam total.",
+    "body": "Menuju ke konfigurasi level dan cek cover stage vertikal/horizontal dan pastikan tetap di 0%.\nJika masih hitam, itu ada bug pada beberapa perangkat Android (terlebih di perangkat yang sudah lama atau lemah) dan sayangnya milik Anda juga terpengaruh. Jika Anda ingin membantu memperbaiki bug, silakan menuju ke #help-and-support dan laporkan."
+  },
+  "find": {
+    "title": "Saya mau menemukan level ini yang saya lihat di video YouTube, bagaimana?",
+    "body": "Pergi ke server tersebut, dan cari teks yang Anda lihat di video: nama lagu, nama artist, nama author, `#ID`, deskripsi."
+  }
+}
