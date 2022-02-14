@@ -1,0 +1,83 @@
+{
+  "what-is": {
+    "title": "Sonolus(ソノラス)とは何ですか？",
+    "body": "今までの、どの音楽ゲームとも異なる、** 音楽ゲームのフレームワーク**アプリです。Sonolusでは、誰もが独自の音楽ゲームを開発して、他の人が遊べる独自のサーバーを公開することができます！"
+  },
+  "install-ios": {
+    "title": "iOSにSonolusをインストールする方法"
+  },
+  "install-android": {
+    "title": "SonolusをAndroidにインストールするには"
+  },
+  "servers": {
+    "title": "どうすれば曲を遊べますか？サーバーはどこにありますか？"
+  },
+  "note-speed": {
+    "title": "ノーツスピードはどうすれば変更できますか？"
+  },
+  "offset-basic": {
+    "title": "ものすごく音ズレしています"
+  },
+  "offset-advanced": {
+    "title": "オフセットの設定が複数ありますが、それぞれどう違うのですか？"
+  },
+  "all-miss": {
+    "title": "どのタイミングでタッチしてもMissになります！"
+  },
+  "change-item": {
+    "title": "スキン/背景/効果音/パーティクルはどうすれば変更できますか？",
+    "body": "譜面を開始する前の画面で、レベル設定をタップし、その画面から変更できます。なお、別のサーバーから選択することもでき、例えばProject Sekaiのサーバーのスキンを、Bandoriの譜面に適用することもできます。"
+  },
+  "chart": {
+    "title": "どうすれば創作譜面を作成できますか？",
+    "body": "**Bandori**の場合: <https://bestdori.com/community/charts>\n**ProjectSekai**の場合: <https://wiki.purplepalette.net/create-charts> (エディタには <https://paletteworks.mkpo.li/edit>がおすすめです)"
+  },
+  "studio": {
+    "title": "スキン/背景/効果音はどうすれば作成できますか？",
+    "body": "https://studio.sonolus.com/"
+  },
+  "judgment-color": {
+    "title": "PERFECT/GREAT/GOOD/MISS の見た目を変えたい",
+    "body": "タイトル画面の __設定__ > __UI__ > __Perfect/Great/Good/Miss 判定色__ から変更できます。Sonolusはすべての音楽ゲームが同様の見た目で動作することを目指しており、色のみを変更できる仕様となっています。"
+  },
+  "judgment-error-color": {
+    "title": "EARLY/LATEの見た目を変えたい",
+    "body": "タイトル画面の __設定__ > __UI__ > __ポジティブ/ネガティブエラー色__ から変更できます。Sonolusはすべての音楽ゲームが同様の見た目で動作することを目指しており、色のみを変更できる仕様となっています。"
+  },
+  "combo-color": {
+    "title": "オールパーフェクト/フルコンボ/クリア/失敗時の見た目を変えたい",
+    "body": "タイトル画面の __設定__ > __UI__ > __All Perfect/Full Combo/Pass/FaiL コンボ色__ から変更できます。Sonolusはすべての音楽ゲームが同様の見た目で動作することを目指しており、色のみを変更できる仕様となっています。"
+  },
+  "ui": {
+    "title": "ゲームUIをカスタマイズしたい(例: 一時停止ボタンが小さすぎる)",
+    "body": "譜面を開始する前の画面で、レベル設定をタップし、UIの設定へ移動します。そこで、UIの種別、サイズ、透明度、アニメーションを変更できます。"
+  },
+  "genre": {
+    "title": "(任意の曲名) はどこのサーバーにありますか？",
+    "body": "聞かれても、すぐにはわかりません。現在サーバーはそれほど多くないので、<#710550213231640627> からサーバーを追加して、ご自身で検索してみてください！"
+  },
+  "magic": {
+    "title": "YouTubeの動画で見たものとゲーム内の見た目が違います、どうすれば動画のようにできますか？",
+    "body": "恐らくは動画編集の魔法に騙されたのでしょう。もしくは、独自のプライベートサーバーを利用したりしているのかもしれません。動画の概要欄等をご参照ください。"
+  },
+  "sweet-potato-homepage": {
+    "title": "Project Sekai 創作譜面サーバー（SweetPotato）のサーバーリンクが機能していないようです",
+    "body": "このサーバーには現在ホームページがありませんが、問題なくプレイ可能です。ブラウザで開かず、Sonolusアプリにアドレスをそのまま追加してください。"
+  },
+  "sekai-viewer-slow": {
+    "title": "Project Sekai 公式譜面サーバーの新しい譜面が読み込めません。"
+  },
+  "testflight-update": {
+  },
+  "update-keep-collection": {
+  },
+  "sideload-expire": {
+  },
+  "free-up-space": {
+  },
+  "black-screen": {
+  },
+  "find": {
+    "title": "YouTubeの動画で見た〇〇で遊びたいのですが、どうすればよいですか？"
+  }
+}
