@@ -12,11 +12,11 @@
     "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/id/installing/android.html#sideload>\nJika Anda memiliki masalah saat menginstall, coba Google \"`nama perangkat Anda` sideload\" dan ikuti panduannya."
   },
   "servers": {
-    "title": "Bagaimana Saya memainkan lagu? Dimana saya menemukan servernya?",
+    "title": "Bagaimana saya memainkan lagu? Dimana saya menemukan servernya?",
     "body": "**Hanya dengan menambahkan server mana yang ingin Anda mainkan, Anda dapat menemukannya di sini: <#710550213231640627>**\nUntuk menambahkannya, klik __Kustom Server__ > __Tambah__, berikan nama (bebas namanya), dan tempel link server (`https://...`) menjadi __Alamat__."
   },
   "note-speed": {
-    "title": "Bagaimana Saya mengubah kecepatan note?",
+    "title": "Bagaimana saya mengubah kecepatan note?",
     "body": "Sebelum Anda memulai bermain, klik __Konfigurasi__ > __Pengaturan__ > __Kecepatan Note__."
   },
   "offset-basic": {
@@ -32,15 +32,15 @@
     "body": "Cek __Offset Input Perangkat__ dan __Offset Input Mesin__ Anda. Jika Anda tidak tahu kegunaan mereka, aturlah offset tersebut tetap 0."
   },
   "change-item": {
-    "title": "Bagaimana Saya mengganti skin/latar/SFX/efek partikel?",
+    "title": "Bagaimana saya mengganti skin/latar/SFX/efek partikel?",
     "body": "Sebelum Anda memainkan sebuah level, klik __Konfigurasi__ dan ubah mereka disana.\nAnda juga bisa memilih skin dari server yang berbeda, sebagai contoh menggunakan skin Project Sekai di level Bandori."
   },
   "chart": {
-    "title": "Bagaimana membuat chart Saya sendiri?",
+    "title": "Bagaimana membuat chart saya sendiri?",
     "body": "**Bestdori**: <https://bestdori.com/community/charts>\n**SweetPotato**: <https://wiki-en.purplepalette.net/create-charts> (editor lainnya: <https://paletteworks.mkpo.li/edit>)"
   },
   "studio": {
-    "title": "Bagaimana membuat skin/latar/SFX Saya sendiri?",
+    "title": "Bagaimana membuat skin/latar/SFX saya sendiri?",
     "body": "https://studio.sonolus.com/"
   },
   "judgment-color": {
@@ -64,7 +64,7 @@
     "body": "Kami tidak tahu, tapi coba cek dari server disini  <#710550213231640627> dan mungkin Anda dapat menemukan yang Anda inginkan!"
   },
   "magic": {
-    "title": "Gamenya berbeda dari video Youtube yang Saya lihat, bagaimana saya membuatnya seperti itu?",
+    "title": "Gamenya berbeda dari video Youtube yang saya lihat, bagaimana saya membuatnya seperti itu?",
     "body": "Anda telah ditipu oleh keajaiban film. Entah mereka menggunakan server aset pribadi atau mereka telah mengeditnya."
   },
   "sweet-potato-homepage": {
@@ -80,7 +80,7 @@
     "body": "Pastikan Anda menggunakan Apple ID yang sama dengan saat Anda menginstall Sonolus untuk pertama kalinya."
   },
   "update-keep-collection": {
-    "title": "Jisa Saya memperbaharui Sonolus, apakah Saya kehilanggan koleksi saya?",
+    "title": "Jika saya memperbaharui Sonolus, apakah saya kehilanggan koleksi saya?",
     "body": "Tidak, selama Anda tidak meng-uninstall tetapi hanya menimpa install-an nya, semuanya akan aman."
   },
   "sideload-expire": {
