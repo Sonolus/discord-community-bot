@@ -1,0 +1,102 @@
+{
+  "what-is": {
+    "title": "¿Qué es Sonolus?",
+    "body": "A diferencia de un juego de ritmo tradicional, **Sonolus es más como un framework de juegos de ritmo**. Cualquiera puede crear sus propios modos de juego de ritmo en Sonolus, ¡o hostear sus propios servidores para que otras personas se unan y disfruten!"
+  },
+  "install-ios": {
+    "title": "Instalar Sonolus en iOS",
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight>\n**Lleno** hasta el 2022/03/27, no se garantiza que puedas acceder.\n\n**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nEste método es el más seguro. Actualmente es necesario contar con un PC.\n**No** necesitas hacer un jailbreak para realizar este método."
+  },
+  "install-android": {
+    "title": "Instalar Sonolus en Android",
+    "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/android.html#sideload>\nSi tienes problemas para instalar, intenta buscar \"`nombre de tu dispositivo` sideload\" en Google y sigue las instrucciones."
+  },
+  "servers": {
+    "title": "¿Cómo juego canciones? ¿Dónde puedo encontrar servidores?",
+    "body": "**Simplemente agrega cualquier servidor en el que quieras juegar, puedes encontrar una lista aquí: <#710550213231640627>**\nPara añadirlo, da click en __Servidor personalizado__ > __Añadir__, ponle un nombre (el que quieras), y pega el link del servidor (`https://...`) en __Dirección__."
+  },
+  "note-speed": {
+    "title": "¿Cómo cambio la velocidad de las notas?",
+    "body": "Antes de que puedas empezar a jugar un nivel, da click en __Configuración__ > __Opciones__ > __Velocidad de las notas__."
+  },
+  "offset-basic": {
+    "title": "¡Mi juego está fuera de ritmo/desincronizado!",
+    "body": "Necesitas ajustar tu __Compensación del audio del dispositivo__ (deja las otras compensaciones en 0)\nLa compensación es diferente para cada dispositivo. **iOS**: alrededor de 50. **Android**: entre 50 a 200.\n\nPara ajustar la compensación de forma correcta, activa __Autoplay__, presta atención para ver si el audio y visual se alinean, y ajústalo de acuerdo a eso."
+  },
+  "offset-advanced": {
+    "title": "¿Qué hace la compensación exactamente?",
+    "body": "__Compensación del audio del dispositivo__: compensación del audio de tu dispositivo. Úsalo para sincronizar el audio y el visual.\n__Compensación del audio del nivel__:  compensación del audio adicional para este nivel, se debe usar únicamente cuando un nivel está mal sincronizado.\n__Compensación del audio del servidor__: compensación del audio adicional para todos los nivel de un servidor, solo debe ser usado cuando todo un servidor está mal sincronizado.\n__Compensación de la entrada del dispositivo__: compensación de la entrada de tu dispositivo. Úsalo para sincronizar la entrada (presionar la pantalla).\n__Compensación de la entrada del motor__: compensación de entrada adicional para todos los niveles que usan este motor, debe usarse únicamente cuando tienes problemas con el motor."
+  },
+  "all-miss": {
+    "title": "¡Estoy fallando todas las notas!",
+    "body": "Revisa tu __compensación de entrada del dispositivo__ y __compensación de entrada del motor__. Si no sabes qué hacen, ponlas en 0."
+  },
+  "change-item": {
+    "title": "¿Cómo cambio los efectos de las texturas/fondos/sonidos/partículas?",
+    "body": "Antes de empezar a jugar un nivel, da click en __Configuración__ y cámbialos ahí.\nTambién puedes seleccionar una textura de un servidor diferente, por ejemplo, puedes usar la textura de Project Sekai en los niveles de Bandori."
+  },
+  "chart": {
+    "title": "¿Cómo hago mis propios mapas?",
+    "body": "**Bestdori**: <https://bestdori.com/community/charts>\n**SweetPotato**: <https://wiki-en.purplepalette.net/create-charts> (otro editor: <https://paletteworks.mkpo.li/edit>)"
+  },
+  "studio": {
+    "title": "¿Cómo hago mis propias texturas/fondos/sonidos?",
+    "body": "https://studio.sonolus.com/"
+  },
+  "judgment-color": {
+    "title": "¿Cómo hago que los Perfect/Great/Good/Miss tengan diferentes colores?",
+    "body": "__Settings__ > __Interfaz__ > __Color de criterio Perfect/Great/Good/Miss__."
+  },
+  "judgment-error-color": {
+    "title": "¿Cómo hago que temprano/tarde tenga diferentes colores?",
+    "body": "__Opciones__ > __Interfaz__ > __Color de error de criterio positivo/negativo__."
+  },
+  "combo-color": {
+    "title": "¿Cómo hago que All Perfect/Full Combo/Pass/Fail tengan diferentes colores?",
+    "body": "__Opciones__ > __Interfaz__ > __Color de combo de All Perfect/Full Combo/Pass/Fail__."
+  },
+  "ui": {
+    "title": "El botón de pausa es muy pequeño / ¿cómo personalizo la interfaz del juego?",
+    "body": "Antes de que empiece a jugar un nivel, da click en __Configuración__ > __Interfaz__. Puedes ajustar el tipo, tamaño, transparencia, animación."
+  },
+  "genre": {
+    "title": "¿Dónde puedo encontrar este género de canciones?",
+    "body": "No lo sabemos, ¡pero revisa algunos servidores en <#710550213231640627> y tal vez encuentres lo que te gusta!"
+  },
+  "magic": {
+    "title": "El juego se veía diferente en los videos de YouTube que vi, ¿cómo hago que se vea así?",
+    "body": "Fuiste engañado por la magia de la edición. Están usando servidores con assets privados o lo están editando antes de publicarlo."
+  },
+  "sweet-potato-homepage": {
+    "title": "¿El link del servidor hecho por fans de Project Sekai (SweetPotato) no funciona?",
+    "body": "Su servidor no cuenta con una página web actualmente, pero se puede jugar perfectamente. Solo añádelo en tu aplicación de Sonolus y podrás jugar."
+  },
+  "sekai-viewer-slow": {
+    "title": "Las nuevas canciones en el chart oficial de Project Sekai no están funcionando.",
+    "body": "Al reproductor Sekai Viewer le toma un tiempo procesar las canciones más nuevas. Espera un poco y estarán listas."
+  },
+  "testflight-update": {
+    "title": "No puedo actualizar Sonolus en TestFlight.",
+    "body": "Asegúrate de estar usando el mismo Apple ID que usaste cuando instalaste Sonolus por primera vez."
+  },
+  "update-keep-collection": {
+    "title": "Si actualizo Sonolus, ¿perderé mis colecciones?",
+    "body": "No, mientras no lo desinstales sino que simplemente lo instales por encima, todo debería estar bien."
+  },
+  "sideload-expire": {
+    "title": "Hice un sideload de Sonolus en iOS, y dejó de funcionar hoy.",
+    "body": "La firma solo dura 7 días, una vez que expira necesitas firmar el archivo `.ipa`. otra vez y hacer un sideload. Algunas herramientas de sideloading (por ejemplo AltStore) harán esto por ti automáticamente."
+  },
+  "free-up-space": {
+    "title": "Sonolus usa mucho espacio, ¿qué hago?",
+    "body": "__Opciones__ > __Repositorio__ > __Administrar__ > __Borrar__, debería liberar mucho espacio (tus colecciones estarán seguras)"
+  },
+  "black-screen": {
+    "title": "Mi Sonolus está completamente en negro.",
+    "body": "Ve a la configuración del nivel y revisa el parámetro cubrir escenario vertical/horizontalmente y asegúrate de que esté en 0%. Si todavía estás viendo una pantalla negra, es un bug en algunos dispositivos Android (particularmente dispositivos antiguos o de gama baja) y desafortunadamente el tuyo está afectado. Si quieres ayudar a reparar el bug, ve a #help-and-support y repórtalo."
+  },
+  "find": {
+    "title": "Quiero encontrar este nivel que vi en un video de YouTube, ¿cómo lo hago?",
+    "body": "Ve a ese servidor, y busca cualquier texto que veas en el video: nombre de la canción, nombre de los artistas, nombre del autor, `#ID`., descripción."
+  }
+}
