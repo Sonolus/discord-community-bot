@@ -13,6 +13,10 @@ export function getWelcomeMessage() {
         content: [...contents.values()]
             .map(({ message }) => message)
             .join('\n\n'),
-        components: [new MessageActionRow().addComponents(buttons)],
+        components: [...Array(Math.ceil(buttons.length / 5)).keys()].map((i) =>
+            new MessageActionRow().addComponents(
+                buttons.slice(i * 5, i * 5 + 5)
+            )
+        ),
     }
 }
