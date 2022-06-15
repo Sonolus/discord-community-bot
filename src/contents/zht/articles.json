@@ -1,0 +1,102 @@
+{
+  "what-is": {
+    "title": "Sonolus是什麼？",
+    "body": "與傳統的音樂遊戲不同，**Sonolus更像是一個音樂遊戲框架**。\n任何人都可以在Sonolus中創作自己獨特的遊戲模式，或者搭建屬於自己的伺服器讓他人參與體驗！"
+  },
+  "install-ios": {
+    "title": "在iOS上安装Sonolus",
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E8%8B%B9%E6%9E%9C-testflight>\n**滿員**至<t:1656021600>，且無法保證能夠獲得名額。\n\n**側載**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E4%BD%BF%E7%94%A8%E9%9B%BB%E8%85%A6%E5%81%B4%E8%BC%89>\n使用電腦側載是最可靠的方法。目前沒有免費可用的無電腦側載方式。\n側載**不需要**越獄。"
+  },
+  "install-android": {
+    "title": "在Android上安装Sonolus",
+    "body": "**側載**: <https://wiki.sonolus.com/getting-started/zht/installing/android.html#%E5%81%B4%E8%BC%89>\n如果您在安裝時遇到困難，請嘗試搜尋 “`您的設備名稱` 側載” 並參考相關教程。"
+  },
+  "servers": {
+    "title": "如何遊玩歌曲？在哪裡能找到伺服器？",
+    "body": "**直接添加想玩的伺服器即可，伺服器列表在這裡：<#710550213231640627>**\n要添加伺服器，點擊 __自定義伺服器__ > __添加__, 填寫名字（隨意起名），然後把伺服器地址（`https://...`）輸入到 __地址__ 中。"
+  },
+  "note-speed": {
+    "title": "如何調整下落速度？",
+    "body": "在開始關卡前，點擊 __設定__ > __選項__ > __節奏圖示速度__。"
+  },
+  "offset-basic": {
+    "title": "遊戲音畫對不上！",
+    "body": "您需要調整 __設備音頻偏移__ （保持其他偏移為0）\n每個設備的偏移都不一樣。 **iOS**：50 左右。 **安卓**：50 至 200 左右。\n\n要正確的調整偏移，打開 __自動模式__，仔細觀察音頻和畫面是否對上，進行相應調整。"
+  },
+  "offset-advanced": {
+    "title": "各個偏移具體作用是什麼？",
+    "body": "__設備音頻偏移__：設備的音頻偏移。使用這個來讓樂曲和畫面對上。\n__關卡音頻偏移__：這個關卡額外的偏移，應只在單個關卡樂曲和畫面沒對上的時候使用。\n__伺服器音頻偏移__：這個伺服器裡全部關卡的額外偏移，應只在整個服務器關卡樂曲和畫面都沒對上的時候使用。\n__設備輸入偏移__：設備的輸入偏移。使用這個來讓輸入對上。\n__引擎輸入偏移__：全部使用這個引擎的關卡的額外偏移，應只在您對這個引擎遇上困難的時候使用。"
+  },
+  "all-miss": {
+    "title": "我怎麼打都是Miss！",
+    "body": "檢查您的 __設備輸入偏移__ 和 __引擎輸入偏移__。如果您不理解他們的作用，請都設為0。"
+  },
+  "change-item": {
+    "title": "如何更換佈景/背景/SE/粒子效果？",
+    "body": "在開始關卡前，點擊 __配置__ 後更換。\n您也可以從其他服務器裡選擇一個佈景/背景/SE/粒子效果，例如把世界計劃的佈景用在BanG Dream!關卡中。"
+  },
+  "chart": {
+    "title": "如何寫譜？",
+    "body": "**Bestdori**：<https://bestdori.com/community/charts>\n**SweetPotato**：<https://wiki-en.purplepalette.net/create-charts>（另一個編輯器：<https://paletteworks.mkpo.li/edit>）"
+  },
+  "studio": {
+    "title": "如何製作我自己的佈景/背景/SE?",
+    "body": "https://studio.sonolus.com/"
+  },
+  "judgment-color": {
+    "title": "如何讓Perfect/Great/Good/Miss有不同的顏色？",
+    "body": "__設定__ > __UI__ > __Perfect/Great/Good/Miss判定顏色__。"
+  },
+  "judgment-error-color": {
+    "title": "如何讓Early/Late有不同的顏色？",
+    "body": "__設定__ > __UI__ > __正/負判定顏色__。"
+  },
+  "combo-color": {
+    "title": "如何讓All Perfect/Full Combo/Pass/Fail有不同的顏色？",
+    "body": "__設定__ > __UI__ > __All Perfect/Full Combo/Pass/Fail連擊顏色__。"
+  },
+  "ui": {
+    "title": "暫停按鈕太小了/如何自定義遊戲UI？",
+    "body": "在開始關卡前，點擊 __設定__ > __UI__。您可以調整種類、大小、透明度和動畫。"
+  },
+  "genre": {
+    "title": "在哪裡可以找到某類曲風的樂曲？",
+    "body": "我們也不知道，不過<#710550213231640627>裡的伺服器說不定是您所喜歡的！"
+  },
+  "magic": {
+    "title": "遊戲和Youtube上看到的不一樣，要怎麼調？",
+    "body": "您看到的是影片特效。他們使用了私人資源，或者是後期製作的特效。"
+  },
+  "sweet-potato-homepage": {
+    "title": "世界計劃自製譜伺服器（SweetPotato）的鏈結打不開？",
+    "body": "他們的伺服器暫時沒有主頁，但是完全可用。只需添加到Sonolus裡就能玩。"
+  },
+  "sekai-viewer-slow": {
+    "title": "世界計劃官方譜面伺服器裡的新歌玩不了。",
+    "body": "Sekai Viewer處理新加的歌曲需要一段時間。請稍等一會這些歌就能玩了。"
+  },
+  "testflight-update": {
+    "title": "我無法使用TestFlight來更新Sonolus。",
+    "body": "檢查一下您是否正在使用安裝Sonolus時使用的Apple ID。"
+  },
+  "update-keep-collection": {
+    "title": "如果我更新Sonolus，收藏會被清空嗎？",
+    "body": "不會，只要您是覆蓋安裝而不是卸載重裝，您的收藏都會一切安全。"
+  },
+  "sideload-expire": {
+    "title": "我在iOS上側載了Sonolus，今天卻用不了。",
+    "body": "簽名只可用 7 天，一旦過期後您需要重新給`.ipa`檔案簽名並側載。一些側載工具（例如AltStore）會幫您自動重簽。"
+  },
+  "free-up-space": {
+    "title": "Sonolus佔用太多儲存空間了，怎麼辦？",
+    "body": "__設定__ > __資料庫__ > __管理__ > __刪除__，應該會釋放出大量空間（您的收藏仍舊安全）"
+  },
+  "black-screen": {
+    "title": "Sonolus黑屏。",
+    "body": "在關卡設定中，檢查垂直/橫向舞台遮蓋並確保為0%。\n如果仍舊是黑屏，這是一個影響到部分安卓設備（尤其是舊或弱的設備）的 BUG，很不幸您的設備也受影響。如果您想幫忙修復這個BUG，請到 #help-and-support 匯報。"
+  },
+  "find": {
+    "title": "我想找在YouTube裡看到的一個關卡，怎麼找？",
+    "body": "去到所在的伺服器，搜索任意影片裡能看到的文字：歌名、歌手、作者、`#ID`或詳情。"
+  }
+}
