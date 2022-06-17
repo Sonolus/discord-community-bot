@@ -5,11 +5,11 @@
   },
   "install-ios": {
     "title": "Cài đặt Sonolus trên iOS",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight>\n** Hết chỗ** cho đến <t:1656021600>, không đảm bảo việc bạn có thể tham gia.\n\n** Cài đặt bên ngoài**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\ncài đặt qua PC là cách được dùng nhiều nhất. không có cách nào để bạn cài đặt mà không qua PC.\nbạn ** Không cần** phải jailbreak để cài đặt."
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/vi/installing/ios.html#testflight-cua-apple>\n** Hết chỗ** cho đến <t:1656021600>, không đảm bảo việc bạn có thể tham gia.\n\n** Cài đặt bên ngoài**: <https://wiki.sonolus.com/getting-started/vi/installing/ios.html#cai-%C4%91at-ben-ngoai-qua-pc>\ncài đặt qua PC là cách được dùng nhiều nhất. không có cách nào để bạn cài đặt mà không qua PC.\nbạn ** Không cần** phải jailbreak để cài đặt."
   },
   "install-android": {
     "title": "Cài đặt Sonolus trên Android",
-    "body": "**Cài đặt bên ngoài**: <https://wiki.sonolus.com/getting-started/installing/android.html#sideload>\nNếu bạn đang gặp vấn đề thì hãy lên google và nhập \"cài đặt ứng dụng bên ngoài trên thiết bị + tên thiết bị\" và làm theo chỉ dẫn."
+    "body": "**Cài đặt bên ngoài**: <https://wiki.sonolus.com/getting-started/vi/installing/android.html#cai-%C4%91at-ben-ngoai>\nNếu bạn đang gặp vấn đề thì hãy lên google và nhập \"cài đặt ứng dụng bên ngoài trên thiết bị + tên thiết bị\" và làm theo chỉ dẫn."
   },
   "servers": {
     "title": "Làm cách nào để chơi? Tôi có thể tìm sever ở đâu?",
