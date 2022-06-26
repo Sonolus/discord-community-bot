@@ -5,7 +5,7 @@
   },
   "install-ios": {
     "title": "在iOS上安装Sonolus",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E8%8B%B9%E6%9E%9C-testflight>\n**滿員**至<t:1656021600>，且無法保證能夠獲得名額。\n\n**側載**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E4%BD%BF%E7%94%A8%E9%9B%BB%E8%85%A6%E5%81%B4%E8%BC%89>\n使用電腦側載是最可靠的方法。目前沒有免費可用的無電腦側載方式。\n側載**不需要**越獄。"
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E8%8B%B9%E6%9E%9C-testflight>\n**滿員**至<t:1658412900>，且無法保證能夠獲得名額。\n\n**側載**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E4%BD%BF%E7%94%A8%E9%9B%BB%E8%85%A6%E5%81%B4%E8%BC%89>\n使用電腦側載是最可靠的方法。目前沒有免費可用的無電腦側載方式。\n側載**不需要**越獄。"
   },
   "install-android": {
     "title": "在Android上安装Sonolus",
