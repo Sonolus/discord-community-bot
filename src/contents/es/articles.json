@@ -5,7 +5,7 @@
   },
   "install-ios": {
     "title": "Instalar Sonolus en iOS",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight>\n**Lleno** hasta el <t:1658412900>, no se garantiza que puedas acceder.\n\n**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nEste método es el más seguro. Actualmente es necesario contar con un PC.\n**No** necesitas hacer un jailbreak para realizar este método."
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight>\n**Lleno** hasta el <t:1661000400>, no se garantiza que puedas acceder.\n\n**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nEste método es el más seguro. Actualmente es necesario contar con un PC.\n**No** necesitas hacer un jailbreak para realizar este método."
   },
   "install-android": {
     "title": "Instalar Sonolus en Android",
