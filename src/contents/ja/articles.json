@@ -5,7 +5,7 @@
   },
   "install-ios": {
     "title": "iOSにSonolusをインストールする方法",
-    "body": "**TestFlight**を用いる: <https://wiki.sonolus.com/getting-started/ja/installing/ios.html#apple-%E3%81%AE-testflight>\n**現在満員です** <t:1660305600>まで、この方法は利用できません。\n\n**サイドロード**を行う: <https://wiki.sonolus.com/getting-started/ja/installing/ios.html#pc-%E3%81%A6%E3%82%99%E3%82%B5%E3%82%A4%E3%83%88%E3%82%99%E3%83%AD%E3%83%BC%E3%83%88%E3%82%99>\nPCを用いてサイドロードを行うのが、最も現実的な方法です。現在、PC無しでは無料で導入する方法はありません。 サイドロードに脱獄は必須ではありません。"
+    "body": "**TestFlight**を用いる: <https://wiki.sonolus.com/getting-started/ja/installing/ios.html#apple-%E3%81%AE-testflight>\n**現在満員です** <t:1660348800>まで、この方法は利用できません。\n\n**サイドロード**を行う: <https://wiki.sonolus.com/getting-started/ja/installing/ios.html#pc-%E3%81%A6%E3%82%99%E3%82%B5%E3%82%A4%E3%83%88%E3%82%99%E3%83%AD%E3%83%BC%E3%83%88%E3%82%99>\nPCを用いてサイドロードを行うのが、最も現実的な方法です。現在、PC無しでは無料で導入する方法はありません。 サイドロードに脱獄は必須ではありません。"
   },
   "install-android": {
     "title": "SonolusをAndroidにインストールするには",
