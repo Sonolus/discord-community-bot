@@ -5,7 +5,7 @@
   },
   "install-ios": {
     "title": "iOS에 Sonolus 설치하기",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#apple-testflight>\n**지금은 만료됨** <t:1660521600>까지, 참여 가능하다는 보장이 없음.\n\n**사이드로드**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%B2%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF-%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3>\nPC를 사용한 사이드로드가 가장 안정적인 방법이에요. 현재 무료로 PC를 사용하지 않고 사이드로드를 할 수 있는 방법은 없어요.\n사이드로드를 위해 탈옥할 필요가 **없어요**."
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#apple-testflight>\n**지금은 만료됨** <t:1660564800>까지, 참여 가능하다는 보장이 없음.\n\n**사이드로드**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%B2%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF-%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3>\nPC를 사용한 사이드로드가 가장 안정적인 방법이에요. 현재 무료로 PC를 사용하지 않고 사이드로드를 할 수 있는 방법은 없어요.\n사이드로드를 위해 탈옥할 필요가 **없어요**."
   },
   "install-android": {
     "title": "Android에 Sonolus 설치",
