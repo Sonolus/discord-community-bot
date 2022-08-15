@@ -5,7 +5,7 @@
   },
   "install-ios": {
     "title": "iOS 上安装 Sonolus",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/zhs/installing/ios.html#%E8%8B%B9%E6%9E%9C-testflight>\n**满员**至 <t:1660564800>，无法保证能够参与。\n\n**侧载**: <https://wiki.sonolus.com/getting-started/zhs/installing/ios.html#pc-%E4%BE%A7%E8%BD%BD>\nPC 侧载是最可靠的方法。目前没有免费可用的无 PC 侧载方式。\n侧载**不需要**越狱。"
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/zhs/installing/ios.html#%E8%8B%B9%E6%9E%9C-testflight>\n**满员**至 <t:4084662000>，无法保证能够参与。\n\n**侧载**: <https://wiki.sonolus.com/getting-started/zhs/installing/ios.html#pc-%E4%BE%A7%E8%BD%BD>\nPC 侧载是最可靠的方法。目前没有免费可用的无 PC 侧载方式。\n侧载**不需要**越狱。"
   },
   "install-android": {
     "title": "安卓上安装 Sonolus",
