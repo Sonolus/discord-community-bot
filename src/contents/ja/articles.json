@@ -44,6 +44,7 @@
     "body": "https://studio.sonolus.com/"
   },
   "judgment-color": {
+    "title": "PERFECT/GREAT/GOOD/MISS の色はどうすれば変更できますか？",
     "body": "タイトル画面の __設定__ > __UI__ > __Perfect/Great/Good/Miss 判定色__ から変更できます。Sonolusはすべての音楽ゲームが同様の見た目で動作することを目指しており、色のみを変更できる仕様となっています。"
   },
   "judgment-error-color": {
