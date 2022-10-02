@@ -5,7 +5,7 @@
     },
     "install-ios": {
         "title": "Install Sonolus on iOS",
-        "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight>\n**Full** until <t:4084662000>, no guarantee you can get in.\n\n**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nSideload with PC is the most reliable method. Currently there is no free sideload without PC option.\nYou **DO NOT** need to jailbreak to sideload."
+        "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nSideload with PC is the most reliable method. Currently there is no free sideload without PC option.\nYou **DO NOT** need to jailbreak to sideload."
     },
     "install-android": {
         "title": "Install Sonolus on Android",
@@ -13,7 +13,7 @@
     },
     "servers": {
         "title": "How do I play songs? Where can I find servers?",
-        "body": "**Simply add whichever server you want to play, you can find a list of them here: <#710550213231640627>**\nTo add it, click __Custom Server__ > __Add__, give it a name (anything you want), and paste the server link (`https://...`) into __Address__."
+        "body": "**Simply add whichever server you want to play, you can find a list of them here: <#710550213231640627>**\nTo add it, click __Custom Server__ > __Add__, paste the server link (`https://...`) into __Address__, and give it a name (anything you want)."
     },
     "note-speed": {
         "title": "How do I change note speed?",
@@ -21,7 +21,7 @@
     },
     "offset-basic": {
         "title": "My game is off beat/out of sync!",
-        "body": "You need to adjust your __Device Audio Offset__ (keep other offsets at 0)\nOffset is different for every device. **iOS**: around 50. **Android**: around 50 to 200.\n\nTo properly adjust offset, turn on __Autoplay__, pay attention to see if audio and visual line up, and adjust accordingly."
+        "body": "You need to adjust your __Device Audio Offset__ (keep other offsets at 0)\nOffset is different for every device, for most devices 0 offset is correct.\n\nTo properly adjust offset, turn on __Autoplay__, pay attention to see if audio and visual line up, and adjust accordingly."
     },
     "offset-advanced": {
         "title": "What does each offset do exactly?",
@@ -37,7 +37,7 @@
     },
     "chart": {
         "title": "How do I make my own charts?",
-        "body": "**Bestdori**: <https://bestdori.com/community/charts>\n**SweetPotato**: <https://wiki-en.purplepalette.net/create-charts> (another editor: <https://paletteworks.mkpo.li/edit>)"
+        "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
     },
     "studio": {
         "title": "How do I make my own skins/background/SFX?",
@@ -93,7 +93,7 @@
     },
     "black-screen": {
         "title": "My Sonolus is completely black.",
-        "body": "Go to level configuration and check vertical/horizontal stage cover and make sure it's at 0%.\nIf you are still seeing black screen, it's a bug on some Android devices (particularly old or weak devices) and unfortunately yours is affected too. If you want to help fixing the bug, please head to #help-and-support and report it."
+        "body": "Before you start playing a level, click __Configuration__ > __Options__ > __Horizontal/Vertical Stage Cover__ and make sure it's at 0%."
     },
     "find": {
         "title": "I want to find this level I saw in a YouTube video, how?",
