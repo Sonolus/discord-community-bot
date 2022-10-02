@@ -5,7 +5,7 @@
   },
   "install-ios": {
     "title": "iOS 上安装 Sonolus",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/zhs/installing/ios.html#%E8%8B%B9%E6%9E%9C-testflight>\n**满员**至 <t:4084662000>，无法保证能够参与。\n\n**侧载**: <https://wiki.sonolus.com/getting-started/zhs/installing/ios.html#pc-%E4%BE%A7%E8%BD%BD>\nPC 侧载是最可靠的方法。目前没有免费可用的无 PC 侧载方式。\n侧载**不需要**越狱。"
+    "body": "**侧载**: <https://wiki.sonolus.com/getting-started/zhs/installing/ios.html#pc-%E4%BE%A7%E8%BD%BD>\nPC 侧载是最可靠的方法。目前没有免费可用的无 PC 侧载方式。\n侧载**不需要**越狱。"
   },
   "install-android": {
     "title": "安卓上安装 Sonolus",
@@ -13,7 +13,7 @@
   },
   "servers": {
     "title": "如何玩歌曲？服务器在哪里？",
-    "body": "**直接添加想玩的服务器即可，服务器列表在这里：<#710550213231640627>**\n要添加，点击 __自定义服务器__ > __添加__, 填写名字（随意起名），然后把服务器地址（`https://...`）输入 __地址__ 中。"
+    "body": "**直接添加想玩的服务器即可，服务器列表在这里：<#710550213231640627>**\n要添加，点击 __自定义服务器__ > __添加__，把服务器地址（`https://...`）输入 __地址__ 中，然后填写名字（随意起名）。"
   },
   "note-speed": {
     "title": "如何调整下落速度？",
@@ -21,7 +21,7 @@
   },
   "offset-basic": {
     "title": "游戏音画对不上！",
-    "body": "您需要调整 __设备音频偏移__ （保持其他偏移为0）\n每个设备的偏移都不一样。**iOS**：50 左右。**安卓**：50 至 200 左右。\n\n要正确的调整偏移，打开 __自动模式__，仔细观察音频和画面是否对上，相应进行调整。"
+    "body": "您需要调整 __设备音频偏移__ （保持其他偏移为0）\n每个设备的偏移都不一样，大部分设备正确偏移为0。\n\n要正确的调整偏移，打开 __自动模式__，仔细观察音频和画面是否对上，相应进行调整。"
   },
   "offset-advanced": {
     "title": "各个偏移具体作用是什么？",
@@ -37,7 +37,7 @@
   },
   "chart": {
     "title": "如何做谱？",
-    "body": "**Bestdori**：<https://bestdori.com/community/charts>\n**甜薯**：<https://wiki-en.purplepalette.net/create-charts>（另一个编辑器：<https://paletteworks.mkpo.li/edit>）"
+    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
   },
   "studio": {
     "title": "如何制作我自己的皮肤/背景/音效？",
@@ -93,7 +93,7 @@
   },
   "black-screen": {
     "title": "Sonolus 黑屏。",
-    "body": "在关卡配置中，检查横向/纵向舞台遮盖并确保为 0%。\n如果仍旧是黑屏，这个一个影响到部分安卓设备（尤其是旧或弱的设备）的 BUG，很不幸您的设备也受影响。如果您想帮忙修复这个 BUG，请到 #help-and-support 汇报。"
+    "body": "在开始关卡前，点击 __配置__ > __选项__ > __横向/纵向舞台遮挡__ 并确保是0%。"
   },
   "find": {
     "title": "我想找在视频里看到的一个关卡，怎么找？",
