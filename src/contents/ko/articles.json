@@ -1,11 +1,11 @@
 {
   "what-is": {
     "title": "Sonolus가 뭔가요?",
-    "body": "기존의 리듬 게임과 달리 **Sonolus는 리듬 게임 프레임워크**에 가깝습니다.\n누구든지 Sonolus에서 자신의 리듬 게임 모드를 만들거나, 다른 사람들이 참여하여 즐길 수 있도록 자신만의 서버를 호스팅할 수 있어요!"
+    "body": "기존의 리듬 게임과 달리 Sonolus는 **리듬 게임 프레임워크**에 가깝습니다.\n누구든지 Sonolus에서 자신의 리듬 게임 모드를 만들거나, 다른 사람들이 참여하여 즐길 수 있도록 자신만의 서버를 호스팅할 수 있어요!"
   },
   "install-ios": {
     "title": "iOS에 Sonolus 설치하기",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#apple-testflight>\n**지금은 만료됨** <t:4084662000>까지, 참여 가능하다는 보장이 없음.\n\n**사이드로드**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%B2%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF-%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3>\nPC를 사용한 사이드로드가 가장 안정적인 방법이에요. 현재 무료로 PC를 사용하지 않고 사이드로드를 할 수 있는 방법은 없어요.\n사이드로드를 위해 탈옥할 필요가 **없어요**."
+    "body": "**사이드로드**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%B2%E1%84%90%E1%85%A5%E1%84%85%E1%85%B3%E1%86%AF-%E1%84%90%E1%85%A9%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB-%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%83%E1%85%B3%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3>\nPC를 사용한 사이드로드가 가장 안정적인 방법이에요. 현재 무료로 PC를 사용하지 않고 사이드로드를 할 수 있는 방법은 없어요.\n사이드로드를 위해 탈옥할 필요가 **없어요**."
   },
   "install-android": {
     "title": "Android에 Sonolus 설치",
@@ -13,7 +13,7 @@
   },
   "servers": {
     "title": "어떻게 플레이하나요? 서버는 어디서 찾죠?",
-    "body": "**하고 싶은 서버를 추가해서 플레이하시면 됩니다. 서버 목록은 여기에 있어요: <#710550213231640627>**\n추가하려면 __커스텀 서버__ > __추가__를 클릭하고 이름(원하는대로)을 지정한 다음 서버 링크(`https://...`)를 __주소__에 붙여넣으면 돼요."
+    "body": "**하고 싶은 서버를 추가해서 플레이하시면 됩니다. 서버 목록은 여기에 있어요: <#710550213231640627>**\n추가하려면 __커스텀 서버__ > __추가__를 클릭하고 이름(원하는대로)을 지정한 다음 서버 링크(`https://...`)를 __주소__에 붙여넣고, 원하는 이름을 입력하면 됩니다."
   },
   "note-speed": {
     "title": "노트 속도는 어떻게 바꾸나요?",
@@ -21,7 +21,7 @@
   },
   "offset-basic": {
     "title": "노래랑 싱크가 안 맞아요!",
-    "body": "__기기 오디오 오프셋__을 조정해야 해요 (다른 오프셋은 0으로 유지).\n오프셋은 기기마다 달라요. **iOS**: 약 50. **Android**: 약 50 ~ 200.\n\n오프셋을 적절하게 조정하려면 __자동 플레이__을 켜고 소리와 보이는 것이 싱크가 맞는지 확인해가면서 조정하시는 걸 추천드려요."
+    "body": "__기기 오디오 오프셋__을 조정해야 해요 (다른 오프셋은 0으로 유지).\n오프셋은 기기마다 다르지만 대부분 0으로 하는게 정확해요.\n\n오프셋을 적절하게 조정하려면 __자동 플레이__을 켜고 소리와 보이는 것이 싱크가 맞는지 확인해가면서 조정하시는 걸 추천드려요."
   },
   "offset-advanced": {
     "title": "오프셋이 여러가지인데 각각 무슨 역할을 하나요?",
@@ -37,7 +37,7 @@
   },
   "chart": {
     "title": "채보 제작은 어떻게 하나요?",
-    "body": "**Bestdori** (뱅드림 채보): <https://bestdori.com/community/charts>\n**SweetPotato** (프로세카 채보): <https://wiki-en.purplepalette.net/create-charts> (다른 채보 편집기: <https://paletteworks.mkpo.li/edit>)"
+    "body": "**Bestdori** (뱅드림 채보): <https://bestdori.com/community/charts>\n**SweetPotato** (프로세카 채보):\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
   },
   "studio": {
     "title": "스킨/배경/SE 제작은 어떻게 하나요?",
@@ -85,7 +85,7 @@
   },
   "sideload-expire": {
     "title": "iOS에 Sonolus를 사이드로드 했는데, 갑자기 작동이 안돼요.",
-    "body": "무료로 사이드로드한 앱들은 7일동안만 작동하며, 그 후엔 다시 사이드로드를 해주어야 해요. 일부 사이드로드 도구(예를들어AltStore)들은 이걸 자동으로 해준답니다."
+    "body": "무료로 사이드로드한 앱들은 7일 동안만 작동하며, 그 후엔 다시 사이드로드를 해주어야 해요. 일부 사이드로드 도구(예를들어 AltStore)들은 이걸 자동으로 해준답니다."
   },
   "free-up-space": {
     "title": "Sonolus 용량이 너무 커요. 어떻게 해야 하나요?",
@@ -93,7 +93,7 @@
   },
   "black-screen": {
     "title": "Sonolus가 검정 화면이에요.",
-    "body": "레벨 설정에서 수직/수평 가리개가 켜져있는지 확인해보세요. 여전히 검정 화면이 표시되는 경우 일부 Android 기기(특히 오래된 기기)의 버그일 가능성이 높아요. 버그 수정에 도움이 필요하면 #help-and-support 에 문의해주세요."
+    "body": "레벨을 시작하기 전, __레벨 설정__ > __옵션__ > __수평/수직 가리개__ 옵션들을 0%로 바꿔주세요."
   },
   "find": {
     "title": "유튜브 영상에서 본 레벨을 찾고 싶어요. 어떻게 찾나요?",
