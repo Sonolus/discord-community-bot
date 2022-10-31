@@ -1,10 +1,12 @@
+import { userMention } from '@discordjs/builders'
 import { MessageActionRow, MessageButton } from 'discord.js'
 import { contents } from '../contents'
 
 export function getArticleMessage(
     locale: string,
     categoryId: string,
-    articleId: string
+    articleId: string,
+    userId?: string
 ) {
     const content = contents.get(locale)
     if (!content) throw `Locale \`${locale}\` not found`
@@ -19,7 +21,8 @@ export function getArticleMessage(
     return {
         content: [
             `__**${article.title}**__`,
-            `\`/${locale} ${articleId}\``,
+            `\`/${locale} ${articleId}\`` +
+                (userId ? ' ' + userMention(userId) : ''),
             '',
             article.body,
         ].join('\n'),
