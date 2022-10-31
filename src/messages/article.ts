@@ -1,4 +1,4 @@
-import { userMention } from '@discordjs/builders'
+import { bold, inlineCode, underscore, userMention } from '@discordjs/builders'
 import { MessageActionRow, MessageButton } from 'discord.js'
 import { contents } from '../contents'
 
@@ -20,8 +20,8 @@ export function getArticleMessage(
 
     return {
         content: [
-            `__**${article.title}**__`,
-            `\`/${locale} ${articleId}\`` +
+            underscore(bold(article.title)),
+            inlineCode(`/${locale} ${articleId}`) +
                 (userId ? ' ' + userMention(userId) : ''),
             '',
             article.body,
