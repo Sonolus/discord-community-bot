@@ -11,7 +11,12 @@ export const articleCommands = [...contents.entries()].map(
 
         for (const [id, { title }] of articles) {
             data.addSubcommand((builder) =>
-                builder.setName(id).setDescription(title)
+                builder
+                    .setName(id)
+                    .setDescription(title)
+                    .addUserOption((option) =>
+                        option.setName('user').setDescription('User to mention')
+                    )
             )
         }
 
@@ -20,9 +25,10 @@ export const articleCommands = [...contents.entries()].map(
 
             async execute(interaction: CommandInteraction) {
                 const id = interaction.options.getSubcommand()
+                const user = interaction.options.getUser('user')
 
                 await interaction.reply({
-                    ...getArticleMessage(locale, '', id),
+                    ...getArticleMessage(locale, '', id, user?.id),
                     components: [],
                 })
             },

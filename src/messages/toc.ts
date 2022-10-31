@@ -1,3 +1,4 @@
+import { bold, underscore } from '@discordjs/builders'
 import { MessageActionRow, MessageSelectMenu } from 'discord.js'
 import { contents } from '../contents'
 
@@ -19,7 +20,7 @@ export function getTocMessage(locale: string) {
         content: [...content.categories.values()]
             .map(({ title, articleIds }) =>
                 [
-                    `__**${title}**__`,
+                    underscore(bold(title)),
                     ...articleIds.map(
                         (id) => `- ${content.articles.get(id)?.title}`
                     ),

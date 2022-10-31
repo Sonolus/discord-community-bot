@@ -1,3 +1,4 @@
+import { bold, underscore } from '@discordjs/builders'
 import { MessageActionRow, MessageButton, MessageSelectMenu } from 'discord.js'
 import { contents } from '../contents'
 
@@ -24,7 +25,7 @@ export function getCategoryMessage(locale: string, categoryId: string) {
 
     return {
         content: [
-            `__**${category.title}**__`,
+            underscore(bold(category.title)),
             ...category.articleIds.map(
                 (id) => `- ${content.articles.get(id)?.title}`
             ),
