@@ -5,7 +5,7 @@
   },
   "install-ios": {
     "title": "在iOS上安装Sonolus",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E8%8B%B9%E6%9E%9C-testflight>\n**滿員**至<t:4084662000>，且無法保證能夠獲得名額。\n\n**側載**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E4%BD%BF%E7%94%A8%E9%9B%BB%E8%85%A6%E5%81%B4%E8%BC%89>\n使用電腦側載是最可靠的方法。目前沒有免費可用的無電腦側載方式。\n側載**不需要**越獄。"
+    "body": "**側載**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E4%BD%BF%E7%94%A8%E9%9B%BB%E8%85%A6%E5%81%B4%E8%BC%89>\n使用電腦側載是最可靠的方法。目前沒有免費可用的無電腦側載方式。\n側載**不需要**越獄。"
   },
   "install-android": {
     "title": "在Android上安装Sonolus",
@@ -13,7 +13,7 @@
   },
   "servers": {
     "title": "如何遊玩歌曲？在哪裡能找到伺服器？",
-    "body": "**直接添加想玩的伺服器即可，伺服器列表在這裡：<#710550213231640627>**\n要添加伺服器，點擊 __自定義伺服器__ > __添加__, 填寫名字（隨意起名），然後把伺服器地址（`https://...`）輸入到 __地址__ 中。"
+    "body": "**直接添加想玩的伺服器即可，伺服器列表在這裡：<#710550213231640627>**\n要添加伺服器，點擊 __自定義伺服器__ > __添加__，把伺服器地址（`https://...`）輸入到 __地址__ 中，然後填寫名字（隨意起名）。"
   },
   "note-speed": {
     "title": "如何調整下落速度？",
@@ -21,7 +21,7 @@
   },
   "offset-basic": {
     "title": "遊戲音畫對不上！",
-    "body": "您需要調整 __設備音頻偏移__ （保持其他偏移為0）\n每個設備的偏移都不一樣。 **iOS**：50 左右。 **安卓**：50 至 200 左右。\n\n要正確的調整偏移，打開 __自動模式__，仔細觀察音頻和畫面是否對上，進行相應調整。"
+    "body": "您需要調整 __設備音頻偏移__ （保持其他偏移為0）\n每個設備的偏移都不一樣，大部份設備的正確偏移都是0。 \n\n要正確的調整偏移，打開 __自動模式__，仔細觀察音頻和畫面是否對上，進行相應調整。"
   },
   "offset-advanced": {
     "title": "各個偏移具體作用是什麼？",
@@ -37,7 +37,7 @@
   },
   "chart": {
     "title": "如何寫譜？",
-    "body": "**Bestdori**：<https://bestdori.com/community/charts>\n**SweetPotato**：<https://wiki-en.purplepalette.net/create-charts>（另一個編輯器：<https://paletteworks.mkpo.li/edit>）"
+    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
   },
   "studio": {
     "title": "如何製作我自己的佈景/背景/SE?",
@@ -93,7 +93,7 @@
   },
   "black-screen": {
     "title": "Sonolus黑屏。",
-    "body": "在關卡設定中，檢查垂直/橫向舞台遮蓋並確保為0%。\n如果仍舊是黑屏，這是一個影響到部分安卓設備（尤其是舊或弱的設備）的 BUG，很不幸您的設備也受影響。如果您想幫忙修復這個BUG，請到 #help-and-support 匯報。"
+    "body": "在你開始一局遊戲前，點擊 __設定__ > __選項__ > __垂直/橫向上隱條__ 並確保為0%。"
   },
   "find": {
     "title": "我想找在YouTube裡看到的一個關卡，怎麼找？",
