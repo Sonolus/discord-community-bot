@@ -36,7 +36,8 @@
     "body": "譜面を開始する前の画面で、レベル設定をタップし、その画面から変更できます。なお、別のサーバーから選択することもでき、例えばProject Sekaiのサーバーのスキンを、Bandoriの譜面に適用することもできます。"
   },
   "chart": {
-    "title": "どうすれば創作譜面を作成できますか？"
+    "title": "どうすれば創作譜面を作成できますか？",
+    "body": "**Bestdoriの場合：**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvasの場合：**\nMikuMikuWorld：<https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks：<https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed：<https://wiki.purplepalette.net/create-charts/editor/ched>\n\n投稿先：<https://cc.sevenc7c.com/>"
   },
   "studio": {
     "title": "スキン/背景/効果音はどうすれば作成できますか？",
