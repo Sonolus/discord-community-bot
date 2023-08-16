@@ -35,10 +35,6 @@
     "title": "スキン/背景/効果音/パーティクルはどうすれば変更できますか？",
     "body": "譜面を開始する前の画面で、レベル設定をタップし、その画面から変更できます。なお、別のサーバーから選択することもでき、例えばProject Sekaiのサーバーのスキンを、Bandoriの譜面に適用することもできます。"
   },
-  "chart": {
-    "title": "どうすれば創作譜面を作成できますか？",
-    "body": "**Bandori**の場合: <https://bestdori.com/community/charts>\n**ProjectSekai**の場合: <https://wiki.purplepalette.net/create-charts> (エディタには <https://paletteworks.mkpo.li/edit>がおすすめです)"
-  },
   "studio": {
     "title": "スキン/背景/効果音はどうすれば作成できますか？",
     "body": "https://studio.sonolus.com/"

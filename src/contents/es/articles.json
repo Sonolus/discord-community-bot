@@ -35,10 +35,6 @@
     "title": "¿Cómo cambio los efectos de las texturas/fondos/sonidos/partículas?",
     "body": "Antes de empezar a jugar un nivel, da click en __Configuración__ y cámbialos ahí.\nTambién puedes seleccionar una textura de un servidor diferente, por ejemplo, puedes usar la textura de Project Sekai en los niveles de Bandori."
   },
-  "chart": {
-    "title": "¿Cómo hago mis propios mapas?",
-    "body": "**Bestdori**: <https://bestdori.com/community/charts>\n**SweetPotato**: <https://wiki-en.purplepalette.net/create-charts> (otro editor: <https://paletteworks.mkpo.li/edit>)"
-  },
   "studio": {
     "title": "¿Cómo hago mis propias texturas/fondos/sonidos?",
     "body": "https://studio.sonolus.com/"

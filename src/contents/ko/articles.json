@@ -35,10 +35,6 @@
     "title": "스킨/배경/SE/탭 이펙트는 어떻게 바꾸나요?",
     "body": "레벨을 선택하고 __레벨 설정__에서 변경하실 수 있어요.\n다른 서버의 스킨도 사용할 수 있어요. 예를 들어 뱅드림에서 프로젝트 세카이의 스킨을 사용할 수도 있답니다!"
   },
-  "chart": {
-    "title": "채보 제작은 어떻게 하나요?",
-    "body": "**Bestdori** (뱅드림 채보): <https://bestdori.com/community/charts>\n**SweetPotato** (프로세카 채보):\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
-  },
   "studio": {
     "title": "스킨/배경/SE 제작은 어떻게 하나요?",
     "body": "https://studio.sonolus.com/"

@@ -35,10 +35,6 @@
     "title": "Làm cách nào để tôi có thể đổi skin/nền/SFX/Hiệu ứng?",
     "body": "Trước khi bắt đầu một map nào đó, hãy nhấn __Thiết lập__ và thay đổi chúng tại đây.\nBạn cũng có thể dùng skin từ những server khác, ví dụ như sử dụng skin của PrjSekai cho những map của Bandori."
   },
-  "chart": {
-    "title": "Làm cách nào để tôi có thể tạo map cho riêng mình?",
-    "body": "**Bestdori**: <https://bestdori.com/community/charts>\n**SweetPotato**: <https://wiki-en.purplepalette.net/create-charts> (another editor: <https://paletteworks.mkpo.li/edit>)"
-  },
   "studio": {
     "title": "Làm cách nào để tạo skin/SFX/background?",
     "body": "https://studio.sonolus.com/"

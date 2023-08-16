@@ -35,10 +35,6 @@
     "title": "Как я могу поменять скин/задний фон/специальные эффекты/эффект частиц?",
     "body": "Прежде чем вы начнёте играть в уровень, нажмите на __Конфигурацию__ и поменяйте их там.\nВы ещё можете выбрать другой скин из другого сервера, к примеру использовать Project Sekai скин для уровней Bandori."
   },
-  "chart": {
-    "title": "Как я могу создавать свои уровни?",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato & ChartCyanvas**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\n\n**Опубликуйте свои уровни на ChartCyanvas здесь:**\n<https://cc.sevenc7c.com/>"
-  },
   "studio": {
     "title": "Как я могу создать свой скин/задний фон/специальный эффект?",
     "body": "https://studio.sonolus.com/"

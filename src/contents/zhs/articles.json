@@ -35,10 +35,6 @@
     "title": "如何更换皮肤/背景/音效/粒子效果？",
     "body": "在开始关卡前，点击 __配置__ 后更换。\n您也可以从其他服务器里选择一个皮肤，例如把世界计划的皮肤用在 BanG Dream 关卡中。"
   },
-  "chart": {
-    "title": "如何做谱？",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
-  },
   "studio": {
     "title": "如何制作我自己的皮肤/背景/音效？",
     "body": "https://studio.sonolus.com/"

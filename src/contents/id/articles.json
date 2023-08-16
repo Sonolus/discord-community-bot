@@ -35,10 +35,6 @@
     "title": "Bagaimana saya mengganti skin/latar/SFX/efek partikel?",
     "body": "Sebelum Anda memainkan sebuah level, klik __Konfigurasi__ dan ubah mereka disana.\nAnda juga bisa memilih skin dari server yang berbeda, sebagai contoh menggunakan skin Project Sekai di level Bandori."
   },
-  "chart": {
-    "title": "Bagaimana membuat chart saya sendiri?",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
-  },
   "studio": {
     "title": "Bagaimana membuat skin/latar/SFX saya sendiri?",
     "body": "https://studio.sonolus.com/"
