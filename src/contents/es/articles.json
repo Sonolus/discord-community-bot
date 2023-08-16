@@ -67,10 +67,6 @@
     "title": "El juego se veía diferente en los videos de YouTube que vi, ¿cómo hago que se vea así?",
     "body": "Fuiste engañado por la magia de la edición. Están usando servidores con assets privados o lo están editando antes de publicarlo."
   },
-  "sweet-potato-homepage": {
-    "title": "¿El link del servidor hecho por fans de Project Sekai (SweetPotato) no funciona?",
-    "body": "Su servidor no cuenta con una página web actualmente, pero se puede jugar perfectamente. Solo añádelo en tu aplicación de Sonolus y podrás jugar."
-  },
   "sekai-viewer-slow": {
     "title": "Las nuevas canciones en el chart oficial de Project Sekai no están funcionando.",
     "body": "Al reproductor Sekai Viewer le toma un tiempo procesar las canciones más nuevas. Espera un poco y estarán listas."
