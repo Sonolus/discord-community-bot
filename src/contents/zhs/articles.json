@@ -36,8 +36,8 @@
     "body": "在开始关卡前，点击 __配置__ 后更换。\n您也可以从其他服务器里选择一个皮肤，例如把世界计划的皮肤用在 BanG Dream 关卡中。"
   },
   "chart": {
-    "title": "如何做谱？",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
+    "title": "我如何制作自己的谱面？",
+    "body": "** Bestdori**\n<https://bestdori.com/community/charts>\n\n** Chart Cyanvas**\nMikuMikuWorld：<https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks：<https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed：<https://wiki.purplepalette.net/create-charts/editor/ched>\n将您的谱面上传到：<https://cc.sevenc7c.com/>"
   },
   "studio": {
     "title": "如何制作我自己的皮肤/背景/音效？",
@@ -66,10 +66,6 @@
   "magic": {
     "title": "游戏和视频上看到的不一样，要怎么调？",
     "body": "您看到的是视频特效。要么他们使用了私人资源，或者是后期制作的特效。"
-  },
-  "sweet-potato-homepage": {
-    "title": "世界计划自制谱服务器（甜薯）的链接打不开？",
-    "body": "他们的服务器暂时没有主页，但是完全可用。只需添加到 Sonolus 里就能玩。"
   },
   "sekai-viewer-slow": {
     "title": "世界计划官方谱面服务器里的新歌玩不了。",

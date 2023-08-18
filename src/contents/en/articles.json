@@ -37,7 +37,7 @@
     },
     "chart": {
         "title": "How do I make my own charts?",
-        "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato & ChartCyanvas**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\n\n~~**Upload your chart to SweetPotato here: **\n<https://potato.purplepalette.net/>~~\nSweetPotato is currently full with no known plans of a server storage upgrade.\n\n**Upload your chart to Chart Cyanvas here:**\n<https://cc.sevenc7c.com/>"
+        "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\nUpload your chart to: <https://cc.sevenc7c.com/>"
     },
     "studio": {
         "title": "How do I make my own skins/background/SFX?",
@@ -66,10 +66,6 @@
     "magic": {
         "title": "The game looked different on the YouTube videos i saw, how do I make it look like that?",
         "body": "You've been duped by movie magic. Either they're using private asset servers or they're editing it in post."
-    },
-    "sweet-potato-homepage": {
-        "title": "Project Sekai Fanmade server (SweetPotato) link doesn't work?",
-        "body": "Their server currently does not have a homepage, however it is perfectly playable. Simply add it into your Sonolus app and you can play."
     },
     "sekai-viewer-slow": {
         "title": "New songs in Project Sekai official chart server are not working.",

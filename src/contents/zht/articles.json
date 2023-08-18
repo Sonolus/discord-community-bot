@@ -35,10 +35,6 @@
     "title": "如何更換佈景/背景/SE/粒子效果？",
     "body": "在開始關卡前，點擊 __配置__ 後更換。\n您也可以從其他服務器裡選擇一個佈景/背景/SE/粒子效果，例如把世界計劃的佈景用在BanG Dream!關卡中。"
   },
-  "chart": {
-    "title": "如何寫譜？",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
-  },
   "studio": {
     "title": "如何製作我自己的佈景/背景/SE?",
     "body": "https://studio.sonolus.com/"
@@ -66,10 +62,6 @@
   "magic": {
     "title": "遊戲和Youtube上看到的不一樣，要怎麼調？",
     "body": "您看到的是影片特效。他們使用了私人資源，或者是後期製作的特效。"
-  },
-  "sweet-potato-homepage": {
-    "title": "世界計劃自製譜伺服器（SweetPotato）的鏈結打不開？",
-    "body": "他們的伺服器暫時沒有主頁，但是完全可用。只需添加到Sonolus裡就能玩。"
   },
   "sekai-viewer-slow": {
     "title": "世界計劃官方譜面伺服器裡的新歌玩不了。",

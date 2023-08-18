@@ -37,7 +37,7 @@
   },
   "chart": {
     "title": "Bagaimana membuat chart saya sendiri?",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**SweetPotato**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>"
+    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\nUpload chart Anda ke: <https://cc.sevenc7c.com/>"
   },
   "studio": {
     "title": "Bagaimana membuat skin/latar/SFX saya sendiri?",
@@ -66,10 +66,6 @@
   "magic": {
     "title": "Gamenya berbeda dari video Youtube yang saya lihat, bagaimana saya membuatnya seperti itu?",
     "body": "Anda telah ditipu oleh keajaiban film. Entah mereka menggunakan server aset pribadi atau mereka telah mengeditnya."
-  },
-  "sweet-potato-homepage": {
-    "title": "Link Server Fanmade Project Sekai (SweetPotato) tidak bekerja?",
-    "body": "Server mereka saat ini tidak mempunyai halaman beranda, namun itu bisa dimainkan dengan sempurna. Cukup tambahkan ke aplikasi Sonolus Anda dan Anda dapat memainkannya."
   },
   "sekai-viewer-slow": {
     "title": "Lagu baru di server official Project Sekai tidak bekerja.",

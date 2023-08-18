@@ -35,10 +35,6 @@
     "title": "Làm cách nào để tôi có thể đổi skin/nền/SFX/Hiệu ứng?",
     "body": "Trước khi bắt đầu một map nào đó, hãy nhấn __Thiết lập__ và thay đổi chúng tại đây.\nBạn cũng có thể dùng skin từ những server khác, ví dụ như sử dụng skin của PrjSekai cho những map của Bandori."
   },
-  "chart": {
-    "title": "Làm cách nào để tôi có thể tạo map cho riêng mình?",
-    "body": "**Bestdori**: <https://bestdori.com/community/charts>\n**SweetPotato**: <https://wiki-en.purplepalette.net/create-charts> (another editor: <https://paletteworks.mkpo.li/edit>)"
-  },
   "studio": {
     "title": "Làm cách nào để tạo skin/SFX/background?",
     "body": "https://studio.sonolus.com/"
@@ -66,10 +62,6 @@
   "magic": {
     "title": "Sao tôi nhìn thấy nó khác với những phiên bản trên YT vậy?",
     "body": "Anh bạn à....ảnh bạn dễ bị lừa quá..haizz..video trên YT không phải phiên bản chính thức đâu."
-  },
-  "sweet-potato-homepage": {
-    "title": "Link Project Sekai Fanmade server (Sweet potato) không hoạt động?",
-    "body": "Server này không có trang chủ nhưng vẫn có thể chơi được, chỉ cần bạn thêm server này vào Sonolus là bạn ó thể chơi được rồi."
   },
   "sekai-viewer-slow": {
     "title": "Map mới trong Project Sekai không hoạt đông.",

@@ -37,7 +37,7 @@
   },
   "chart": {
     "title": "どうすれば創作譜面を作成できますか？",
-    "body": "**Bandori**の場合: <https://bestdori.com/community/charts>\n**ProjectSekai**の場合: <https://wiki.purplepalette.net/create-charts> (エディタには <https://paletteworks.mkpo.li/edit>がおすすめです)"
+    "body": "**Bestdoriの場合：**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvasの場合：**\nMikuMikuWorld：<https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks：<https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed：<https://wiki.purplepalette.net/create-charts/editor/ched>\n\n投稿先：<https://cc.sevenc7c.com/>"
   },
   "studio": {
     "title": "スキン/背景/効果音はどうすれば作成できますか？",
@@ -66,10 +66,6 @@
   "magic": {
     "title": "YouTubeの動画で見たものとゲーム内の見た目が違います、どうすれば動画のようにできますか？",
     "body": "恐らくは動画編集の魔法に騙されたのでしょう。もしくは、独自のプライベートサーバーを利用したりしているのかもしれません。動画の概要欄等をご参照ください。"
-  },
-  "sweet-potato-homepage": {
-    "title": "Project Sekai 創作譜面サーバー（SweetPotato）のサーバーリンクが機能していないようです",
-    "body": "このサーバーには現在ホームページがありませんが、問題なくプレイできます。ブラウザで開かず、Sonolusアプリにアドレスをそのまま追加してください。"
   },
   "sekai-viewer-slow": {
     "title": "Project Sekai 公式譜面サーバーの新しい譜面が読み込めません。",
