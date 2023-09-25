@@ -28,7 +28,7 @@ client.on('interactionCreate', (interaction) => {
 client.login(token)
 
 async function guard<
-    T extends { reply(options: InteractionReplyOptions): void }
+    T extends { reply(options: InteractionReplyOptions): void },
 >(interaction: T, process: (interaction: T) => Promise<void>) {
     try {
         await process(interaction)
