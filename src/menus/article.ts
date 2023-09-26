@@ -14,7 +14,7 @@ export const articleMenus = [...contents.entries()]
                         ...getArticleMessage(locale, id, articleId),
                         ephemeral: true,
                     }),
-            }))
-        )
+            })),
+        ),
     )
     .flat(2)

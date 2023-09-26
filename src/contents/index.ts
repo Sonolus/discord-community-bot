@@ -15,14 +15,12 @@ export const contents = new Map(
                 select: string
             }>(locale, 'index')
 
-            const categories = loadJson<Record<string, string>>(
-                locale,
-                'categories'
-            )
+            const categories = loadJson<Record<string, string>>(locale, 'categories')
 
-            const articles = loadJson<
-                Record<string, { title: string; body: string }>
-            >(locale, 'articles')
+            const articles = loadJson<Record<string, { title: string; body: string }>>(
+                locale,
+                'articles',
+            )
 
             return [
                 locale,
@@ -35,16 +33,14 @@ export const contents = new Map(
                                 title,
                                 articleIds: categoriesMap[id],
                             },
-                        ])
+                        ]),
                     ),
                     articles: new Map(Object.entries(articles)),
                 },
             ]
-        })
+        }),
 )
 
 function loadJson<T>(locale: string, filename: string): T {
-    return JSON.parse(
-        readFileSync(`${__dirname}/${locale}/${filename}.json`, 'utf8')
-    ) as T
+    return JSON.parse(readFileSync(`${__dirname}/${locale}/${filename}.json`, 'utf8')) as T
 }

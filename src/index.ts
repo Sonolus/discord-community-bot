@@ -27,9 +27,10 @@ client.on('interactionCreate', (interaction) => {
 
 void client.login(token)
 
-async function guard<
-    T extends { reply(options: InteractionReplyOptions): void },
->(interaction: T, process: (interaction: T) => Promise<void>) {
+async function guard<T extends { reply(options: InteractionReplyOptions): void }>(
+    interaction: T,
+    process: (interaction: T) => Promise<void>,
+) {
     try {
         await process(interaction)
     } catch (error) {
@@ -42,11 +43,8 @@ async function guard<
 }
 
 async function processCommand(interaction: CommandInteraction) {
-    const command = commands.find(
-        ({ data: { name } }) => name === interaction.commandName
-    )
-    if (!command)
-        throw new Error(`Command \`${interaction.commandName}\` not found`)
+    const command = commands.find(({ data: { name } }) => name === interaction.commandName)
+    if (!command) throw new Error(`Command \`${interaction.commandName}\` not found`)
 
     await command.execute(interaction)
 }
@@ -60,13 +58,10 @@ async function processButton(interaction: ButtonInteraction) {
 
 async function processMenus(interaction: SelectMenuInteraction) {
     const menu = menus.find(
-        ({ id, value }) =>
-            id === interaction.customId && value === interaction.values[0]
+        ({ id, value }) => id === interaction.customId && value === interaction.values[0],
     )
     if (!menu)
-        throw new Error(
-            `Menu \`${interaction.customId}\` > \`${interaction.values[0]}\` not found`
-        )
+        throw new Error(`Menu \`${interaction.customId}\` > \`${interaction.values[0]}\` not found`)
 
     await menu.execute(interaction)
 }

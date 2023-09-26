@@ -13,7 +13,7 @@ export function getTocMessage(locale: string) {
             [...content.categories.entries()].map(([id, { title }]) => ({
                 label: title,
                 value: `${locale}.${id}`,
-            }))
+            })),
         )
 
     return {
@@ -21,10 +21,8 @@ export function getTocMessage(locale: string) {
             .map(({ title, articleIds }) =>
                 [
                     underscore(bold(title)),
-                    ...articleIds.map(
-                        (id) => `- ${content.articles.get(id)?.title}`
-                    ),
-                ].join('\n')
+                    ...articleIds.map((id) => `- ${content.articles.get(id)?.title}`),
+                ].join('\n'),
             )
             .join('\n\n'),
         components: [new MessageActionRow().addComponents(menu)],

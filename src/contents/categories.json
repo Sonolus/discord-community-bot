@@ -6,13 +6,7 @@
         "update-keep-collection",
         "sideload-expire"
     ],
-    "getting-started": [
-        "servers",
-        "offset-basic",
-        "note-speed",
-        "change-item",
-        "find"
-    ],
+    "getting-started": ["servers", "offset-basic", "note-speed", "change-item", "find"],
     "advanced": [
         "offset-advanced",
         "chart",
@@ -23,14 +17,6 @@
         "ui",
         "free-up-space"
     ],
-    "troubleshooting": [
-        "all-miss",
-        "black-screen",
-        "sekai-viewer-slow"
-    ],
-    "miscellaneous": [
-        "what-is",
-        "magic",
-        "genre"
-    ]
+    "troubleshooting": ["all-miss", "black-screen", "sekai-viewer-slow"],
+    "miscellaneous": ["what-is", "magic", "genre"]
 }

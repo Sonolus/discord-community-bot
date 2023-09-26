@@ -1,0 +1,6 @@
+**/*.*
+
+!.eslintrc.cjs
+
+!src/**/*.*
+src/contents/*/*.json

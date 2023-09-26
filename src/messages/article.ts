@@ -6,7 +6,7 @@ export function getArticleMessage(
     locale: string,
     categoryId: string,
     articleId: string,
-    userIds: string[] = []
+    userIds: string[] = [],
 ) {
     const content = contents.get(locale)
     if (!content) throw new Error(`Locale \`${locale}\` not found`)
@@ -21,9 +21,7 @@ export function getArticleMessage(
     return {
         content: [
             underscore(bold(article.title)),
-            inlineCode(`/${locale} ${articleId}`) +
-                ' ' +
-                userIds.map(userMention).join(' '),
+            inlineCode(`/${locale} ${articleId}`) + ' ' + userIds.map(userMention).join(' '),
             '',
             article.body,
         ].join('\n'),

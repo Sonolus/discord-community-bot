@@ -12,6 +12,6 @@ export const categoryButtons = [...contents.entries()]
                     ...getCategoryMessage(locale, id),
                     ephemeral: true,
                 }),
-        }))
+        })),
     )
     .flat()

@@ -15,7 +15,7 @@ export function getCategoryMessage(locale: string, categoryId: string) {
             category.articleIds.map((id) => ({
                 label: content.articles.get(id)?.title ?? '',
                 value: `${locale}.${id}`,
-            }))
+            })),
         )
 
     const backButton = new MessageButton()
@@ -26,9 +26,7 @@ export function getCategoryMessage(locale: string, categoryId: string) {
     return {
         content: [
             underscore(bold(category.title)),
-            ...category.articleIds.map(
-                (id) => `- ${content.articles.get(id)?.title}`
-            ),
+            ...category.articleIds.map((id) => `- ${content.articles.get(id)?.title}`),
         ].join('\n'),
         components: [
             new MessageActionRow().addComponents(menu),

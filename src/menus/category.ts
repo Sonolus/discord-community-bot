@@ -13,6 +13,6 @@ export const categoryMenus = [...contents.entries()]
                     ...getCategoryMessage(locale, id),
                     ephemeral: true,
                 }),
-        }))
+        })),
     )
     .flat()
