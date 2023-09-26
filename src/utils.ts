@@ -1,15 +1,9 @@
-import {
-    InteractionReplyOptions,
-    MessageComponentInteraction,
-} from 'discord.js'
+import { BaseMessageOptions, MessageComponentInteraction, MessageType } from 'discord.js'
 
-export function replyOrUpdate(
+export const replyOrUpdate = (
     interaction: MessageComponentInteraction,
-    options: InteractionReplyOptions
-) {
-    if (interaction.message.type === 'REPLY') {
-        return interaction.update(options)
-    } else {
-        return interaction.reply(options)
-    }
-}
+    message: Pick<BaseMessageOptions, 'content' | 'components'>,
+) =>
+    interaction.message.type === MessageType.Reply
+        ? interaction.update(message)
+        : interaction.reply({ ...message, ephemeral: true })
