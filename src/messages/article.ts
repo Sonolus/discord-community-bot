@@ -9,12 +9,12 @@ import {
 } from 'discord.js'
 import { contents } from '../contents'
 
-export function getArticleMessage(
+export const getArticleMessage = (
     locale: string,
     categoryId: string,
     articleId: string,
     userIds: string[] = [],
-) {
+) => {
     const content = contents.get(locale)
     if (!content) throw new Error(`Locale \`${locale}\` not found`)
     const article = content.articles.get(articleId)

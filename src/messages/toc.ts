@@ -1,7 +1,7 @@
 import { ActionRowBuilder, StringSelectMenuBuilder, bold, underscore } from 'discord.js'
 import { contents } from '../contents'
 
-export function getTocMessage(locale: string) {
+export const getTocMessage = (locale: string) => {
     const content = contents.get(locale)
     if (!content) throw new Error(`Locale \`${locale}\` not found`)
 

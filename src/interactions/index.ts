@@ -1,9 +1,9 @@
 import { InteractionReplyOptions } from 'discord.js'
 
-export async function guard<T extends { reply(options: InteractionReplyOptions): void }>(
+export const guard = async <T extends { reply(options: InteractionReplyOptions): void }>(
     interaction: T,
     process: (interaction: T) => Promise<void>,
-) {
+) => {
     try {
         await process(interaction)
     } catch {

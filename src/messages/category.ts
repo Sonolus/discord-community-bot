@@ -8,7 +8,7 @@ import {
 } from 'discord.js'
 import { contents } from '../contents'
 
-export function getCategoryMessage(locale: string, categoryId: string) {
+export const getCategoryMessage = (locale: string, categoryId: string) => {
     const content = contents.get(locale)
     if (!content) throw new Error(`Locale \`${locale}\` not found`)
     const category = content.categories.get(categoryId)

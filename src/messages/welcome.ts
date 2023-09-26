@@ -1,7 +1,7 @@
 import { ActionRowBuilder, ButtonBuilder, ButtonStyle } from 'discord.js'
 import { contents } from '../contents'
 
-export function getWelcomeMessage() {
+export const getWelcomeMessage = () => {
     const buttons = [...contents.entries()].map(([locale, { name }]) =>
         new ButtonBuilder()
             .setCustomId(`toc.${locale}`)

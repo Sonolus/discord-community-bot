@@ -1,7 +1,7 @@
 import { StringSelectMenuInteraction } from 'discord.js'
 import { menus } from '../menus'
 
-export async function processMenu(interaction: StringSelectMenuInteraction) {
+export const processMenu = async (interaction: StringSelectMenuInteraction) => {
     const menu = menus.find(
         ({ id, value }) => id === interaction.customId && value === interaction.values[0],
     )

@@ -1,7 +1,10 @@
 import { readdirSync, readFileSync } from 'fs'
 import * as _categoriesMap from './categories.json'
 
-const categoriesMap = _categoriesMap as Record<string, string[]>
+const categoriesMap: Record<string, string[]> = _categoriesMap
+
+const loadJson = <T>(locale: string, filename: string) =>
+    JSON.parse(readFileSync(`${__dirname}/${locale}/${filename}.json`, 'utf8')) as T
 
 export const contents = new Map(
     readdirSync(__dirname, { withFileTypes: true })
@@ -40,7 +43,3 @@ export const contents = new Map(
             ]
         }),
 )
-
-function loadJson<T>(locale: string, filename: string): T {
-    return JSON.parse(readFileSync(`${__dirname}/${locale}/${filename}.json`, 'utf8')) as T
-}
