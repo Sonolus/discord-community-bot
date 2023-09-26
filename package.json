@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": "true",
   "scripts": {
-    "lint": "tsc -p . --noEmit && eslint . && prettier . --check",
+    "prebuild": "tsc -p . --noEmit && eslint . && prettier . --check",
     "build": "tsc -p .",
     "deploy": "node ./dist/deploy-commands.js && node ./dist/index.js"
   },
