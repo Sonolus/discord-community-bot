@@ -4,16 +4,16 @@ import { contents } from '../contents'
 
 export function getCategoryMessage(locale: string, categoryId: string) {
     const content = contents.get(locale)
-    if (!content) throw `Locale \`${locale}\` not found`
+    if (!content) throw new Error(`Locale \`${locale}\` not found`)
     const category = content.categories.get(categoryId)
-    if (!category) throw `Category \`${categoryId}\` not found`
+    if (!category) throw new Error(`Category \`${categoryId}\` not found`)
 
     const menu = new MessageSelectMenu()
         .setCustomId('article')
         .setPlaceholder(content.select)
         .addOptions(
             category.articleIds.map((id) => ({
-                label: content.articles.get(id)?.title || '',
+                label: content.articles.get(id)?.title ?? '',
                 value: `${locale}.${id}`,
             }))
         )

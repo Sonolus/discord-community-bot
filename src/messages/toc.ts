@@ -4,7 +4,7 @@ import { contents } from '../contents'
 
 export function getTocMessage(locale: string) {
     const content = contents.get(locale)
-    if (!content) throw `Locale \`${locale}\` not found`
+    if (!content) throw new Error(`Locale \`${locale}\` not found`)
 
     const menu = new MessageSelectMenu()
         .setCustomId('category')

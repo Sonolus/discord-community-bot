@@ -9,7 +9,7 @@ export const welcomeCommand = {
 
     async execute(interaction: CommandInteraction) {
         if ((await interaction.guild?.fetchOwner())?.id !== interaction.user.id)
-            throw 'Only server owner can use this command'
+            throw new Error('Only server owner can use this command')
 
         await interaction.reply({
             ...getWelcomeMessage(),

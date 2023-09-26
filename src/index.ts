@@ -25,7 +25,7 @@ client.on('interactionCreate', (interaction) => {
     if (interaction.isSelectMenu()) return guard(interaction, processMenus)
 })
 
-client.login(token)
+void client.login(token)
 
 async function guard<
     T extends { reply(options: InteractionReplyOptions): void },
@@ -34,6 +34,7 @@ async function guard<
         await process(interaction)
     } catch (error) {
         interaction.reply({
+            // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
             content: `An error occurred:\n> ${error}`,
             ephemeral: true,
         })
@@ -44,14 +45,15 @@ async function processCommand(interaction: CommandInteraction) {
     const command = commands.find(
         ({ data: { name } }) => name === interaction.commandName
     )
-    if (!command) throw `Command \`${interaction.commandName}\` not found`
+    if (!command)
+        throw new Error(`Command \`${interaction.commandName}\` not found`)
 
     await command.execute(interaction)
 }
 
 async function processButton(interaction: ButtonInteraction) {
     const button = buttons.find(({ id }) => id === interaction.customId)
-    if (!button) throw `Button \`${interaction.customId}\` not found`
+    if (!button) throw new Error(`Button \`${interaction.customId}\` not found`)
 
     await button.execute(interaction)
 }
@@ -62,7 +64,9 @@ async function processMenus(interaction: SelectMenuInteraction) {
             id === interaction.customId && value === interaction.values[0]
     )
     if (!menu)
-        throw `Menu \`${interaction.customId}\` > \`${interaction.values[0]}\` not found`
+        throw new Error(
+            `Menu \`${interaction.customId}\` > \`${interaction.values[0]}\` not found`
+        )
 
     await menu.execute(interaction)
 }

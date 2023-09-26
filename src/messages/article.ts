@@ -9,9 +9,9 @@ export function getArticleMessage(
     userIds: string[] = []
 ) {
     const content = contents.get(locale)
-    if (!content) throw `Locale \`${locale}\` not found`
+    if (!content) throw new Error(`Locale \`${locale}\` not found`)
     const article = content.articles.get(articleId)
-    if (!article) throw `Article \`${articleId}\` not found`
+    if (!article) throw new Error(`Article \`${articleId}\` not found`)
 
     const backButton = new MessageButton()
         .setCustomId(`category.${locale}.${categoryId}`)

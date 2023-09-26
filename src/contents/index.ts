@@ -33,7 +33,7 @@ export const contents = new Map(
                             id,
                             {
                                 title,
-                                articleIds: categoriesMap[id] || [],
+                                articleIds: categoriesMap[id],
                             },
                         ])
                     ),
@@ -46,5 +46,5 @@ export const contents = new Map(
 function loadJson<T>(locale: string, filename: string): T {
     return JSON.parse(
         readFileSync(`${__dirname}/${locale}/${filename}.json`, 'utf8')
-    )
+    ) as T
 }
