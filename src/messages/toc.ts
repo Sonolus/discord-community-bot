@@ -20,7 +20,9 @@ export function getTocMessage(locale: string) {
             .map(({ title, articleIds }) =>
                 [
                     underscore(bold(title)),
-                    ...articleIds.map((id) => `- ${content.articles.get(id)?.title}`),
+                    ...articleIds
+                        .filter((id) => content.articles.has(id))
+                        .map((id) => `- ${content.articles.get(id)?.title}`),
                 ].join('\n'),
             )
             .join('\n\n'),

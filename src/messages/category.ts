@@ -14,11 +14,13 @@ export function getCategoryMessage(locale: string, categoryId: string) {
     const category = content.categories.get(categoryId)
     if (!category) throw new Error(`Category \`${categoryId}\` not found`)
 
+    const articleIds = category.articleIds.filter((id) => content.articles.has(id))
+
     const menu = new StringSelectMenuBuilder()
         .setCustomId('article')
         .setPlaceholder(content.select)
         .addOptions(
-            category.articleIds.map((id) => ({
+            articleIds.map((id) => ({
                 label: content.articles.get(id)?.title ?? '',
                 value: `${locale}.${id}`,
             })),
@@ -32,7 +34,7 @@ export function getCategoryMessage(locale: string, categoryId: string) {
     return {
         content: [
             underscore(bold(category.title)),
-            ...category.articleIds.map((id) => `- ${content.articles.get(id)?.title}`),
+            ...articleIds.map((id) => `- ${content.articles.get(id)?.title}`),
         ].join('\n'),
         components: [
             new ActionRowBuilder<StringSelectMenuBuilder>().addComponents(menu),
