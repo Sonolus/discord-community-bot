@@ -33,10 +33,9 @@ async function guard<T extends { reply(options: InteractionReplyOptions): void }
 ) {
     try {
         await process(interaction)
-    } catch (error) {
+    } catch {
         interaction.reply({
-            // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-            content: `An error occurred:\n> ${error}`,
+            content: 'An error occurred, please report it to server admins.',
             ephemeral: true,
         })
     }
