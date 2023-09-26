@@ -8,10 +8,7 @@ export const categoryButtons = [...contents.entries()]
         [...categories.keys()].map((id) => ({
             id: `category.${locale}.${id}`,
             execute: (interaction: ButtonInteraction) =>
-                replyOrUpdate(interaction, {
-                    ...getCategoryMessage(locale, id),
-                    ephemeral: true,
-                }),
+                replyOrUpdate(interaction, getCategoryMessage(locale, id)),
         })),
     )
     .flat()

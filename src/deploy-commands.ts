@@ -1,5 +1,4 @@
-import { REST } from '@discordjs/rest'
-import { Routes } from 'discord-api-types/rest/v9'
+import { REST, Routes } from 'discord.js'
 import { commands } from './commands'
 import { clientId, guildId, token } from './config.json'
 

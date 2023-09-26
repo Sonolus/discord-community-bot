@@ -1,4 +1,4 @@
-import { SelectMenuInteraction } from 'discord.js'
+import { StringSelectMenuInteraction } from 'discord.js'
 import { contents } from '../contents'
 import { getArticleMessage } from '../messages/article'
 import { replyOrUpdate } from '../utils'
@@ -9,11 +9,8 @@ export const articleMenus = [...contents.entries()]
             articleIds.map((articleId) => ({
                 id: 'article',
                 value: `${locale}.${articleId}`,
-                execute: (interaction: SelectMenuInteraction) =>
-                    replyOrUpdate(interaction, {
-                        ...getArticleMessage(locale, id, articleId),
-                        ephemeral: true,
-                    }),
+                execute: (interaction: StringSelectMenuInteraction) =>
+                    replyOrUpdate(interaction, getArticleMessage(locale, id, articleId)),
             })),
         ),
     )

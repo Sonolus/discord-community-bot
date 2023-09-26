@@ -1,5 +1,4 @@
-import { SlashCommandBuilder } from '@discordjs/builders'
-import { CommandInteraction } from 'discord.js'
+import { CommandInteraction, SlashCommandBuilder } from 'discord.js'
 import { getWelcomeMessage } from '../messages/welcome'
 
 export const welcomeCommand = {
@@ -9,8 +8,6 @@ export const welcomeCommand = {
         if ((await interaction.guild?.fetchOwner())?.id !== interaction.user.id)
             throw new Error('Only server owner can use this command')
 
-        await interaction.reply({
-            ...getWelcomeMessage(),
-        })
+        await interaction.reply(getWelcomeMessage())
     },
 }

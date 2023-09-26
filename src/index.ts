@@ -2,16 +2,16 @@ import {
     ButtonInteraction,
     Client,
     CommandInteraction,
-    Intents,
+    GatewayIntentBits,
     InteractionReplyOptions,
-    SelectMenuInteraction,
+    StringSelectMenuInteraction,
 } from 'discord.js'
 import { buttons } from './buttons'
 import { commands } from './commands'
 import { clientId, guildId, token } from './config.json'
 import { menus } from './menus'
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] })
+const client = new Client({ intents: [GatewayIntentBits.Guilds] })
 
 client.once('ready', () => {
     console.log('Sonolus Discord Community Bot is now online')
@@ -22,7 +22,7 @@ client.once('ready', () => {
 client.on('interactionCreate', (interaction) => {
     if (interaction.isCommand()) return guard(interaction, processCommand)
     if (interaction.isButton()) return guard(interaction, processButton)
-    if (interaction.isSelectMenu()) return guard(interaction, processMenus)
+    if (interaction.isStringSelectMenu()) return guard(interaction, processMenus)
 })
 
 void client.login(token)
@@ -56,7 +56,7 @@ async function processButton(interaction: ButtonInteraction) {
     await button.execute(interaction)
 }
 
-async function processMenus(interaction: SelectMenuInteraction) {
+async function processMenus(interaction: StringSelectMenuInteraction) {
     const menu = menus.find(
         ({ id, value }) => id === interaction.customId && value === interaction.values[0],
     )

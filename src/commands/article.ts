@@ -1,5 +1,4 @@
-import { SlashCommandBuilder } from '@discordjs/builders'
-import { CommandInteraction, User } from 'discord.js'
+import { CommandInteraction, SlashCommandBuilder, User } from 'discord.js'
 import { contents } from '../contents'
 import { getArticleMessage } from '../messages/article'
 
@@ -25,6 +24,8 @@ export const articleCommands = [...contents.entries()].map(([locale, { articles 
         data,
 
         async execute(interaction: CommandInteraction) {
+            if (!interaction.isChatInputCommand()) return
+
             const id = interaction.options.getSubcommand()
             const userIds = [...Array(count).keys()]
                 .map((i) => interaction.options.getUser(`user-${i + 1}`))

@@ -1,5 +1,11 @@
-import { bold, underscore } from '@discordjs/builders'
-import { MessageActionRow, MessageButton, MessageSelectMenu } from 'discord.js'
+import {
+    ActionRowBuilder,
+    ButtonBuilder,
+    ButtonStyle,
+    StringSelectMenuBuilder,
+    bold,
+    underscore,
+} from 'discord.js'
 import { contents } from '../contents'
 
 export function getCategoryMessage(locale: string, categoryId: string) {
@@ -8,7 +14,7 @@ export function getCategoryMessage(locale: string, categoryId: string) {
     const category = content.categories.get(categoryId)
     if (!category) throw new Error(`Category \`${categoryId}\` not found`)
 
-    const menu = new MessageSelectMenu()
+    const menu = new StringSelectMenuBuilder()
         .setCustomId('article')
         .setPlaceholder(content.select)
         .addOptions(
@@ -18,10 +24,10 @@ export function getCategoryMessage(locale: string, categoryId: string) {
             })),
         )
 
-    const backButton = new MessageButton()
+    const backButton = new ButtonBuilder()
         .setCustomId(`toc.${locale}`)
         .setLabel(content.back)
-        .setStyle('SECONDARY')
+        .setStyle(ButtonStyle.Secondary)
 
     return {
         content: [
@@ -29,8 +35,8 @@ export function getCategoryMessage(locale: string, categoryId: string) {
             ...category.articleIds.map((id) => `- ${content.articles.get(id)?.title}`),
         ].join('\n'),
         components: [
-            new MessageActionRow().addComponents(menu),
-            new MessageActionRow().addComponents(backButton),
+            new ActionRowBuilder<StringSelectMenuBuilder>().addComponents(menu),
+            new ActionRowBuilder<ButtonBuilder>().addComponents(backButton),
         ],
     }
 }

@@ -1,12 +1,11 @@
-import { bold, underscore } from '@discordjs/builders'
-import { MessageActionRow, MessageSelectMenu } from 'discord.js'
+import { ActionRowBuilder, StringSelectMenuBuilder, bold, underscore } from 'discord.js'
 import { contents } from '../contents'
 
 export function getTocMessage(locale: string) {
     const content = contents.get(locale)
     if (!content) throw new Error(`Locale \`${locale}\` not found`)
 
-    const menu = new MessageSelectMenu()
+    const menu = new StringSelectMenuBuilder()
         .setCustomId('category')
         .setPlaceholder(content.select)
         .addOptions(
@@ -25,6 +24,6 @@ export function getTocMessage(locale: string) {
                 ].join('\n'),
             )
             .join('\n\n'),
-        components: [new MessageActionRow().addComponents(menu)],
+        components: [new ActionRowBuilder<StringSelectMenuBuilder>().addComponents(menu)],
     }
 }

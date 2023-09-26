@@ -1,5 +1,12 @@
-import { bold, inlineCode, underscore, userMention } from '@discordjs/builders'
-import { MessageActionRow, MessageButton } from 'discord.js'
+import {
+    ActionRowBuilder,
+    ButtonBuilder,
+    ButtonStyle,
+    bold,
+    inlineCode,
+    underscore,
+    userMention,
+} from 'discord.js'
 import { contents } from '../contents'
 
 export function getArticleMessage(
@@ -13,10 +20,10 @@ export function getArticleMessage(
     const article = content.articles.get(articleId)
     if (!article) throw new Error(`Article \`${articleId}\` not found`)
 
-    const backButton = new MessageButton()
+    const backButton = new ButtonBuilder()
         .setCustomId(`category.${locale}.${categoryId}`)
         .setLabel(content.back)
-        .setStyle('SECONDARY')
+        .setStyle(ButtonStyle.Secondary)
 
     return {
         content: [
@@ -25,6 +32,6 @@ export function getArticleMessage(
             '',
             article.body,
         ].join('\n'),
-        components: [new MessageActionRow().addComponents(backButton)],
+        components: [new ActionRowBuilder<ButtonBuilder>().addComponents(backButton)],
     }
 }
