@@ -1,7 +1,7 @@
 {
   "what-is": {
     "title": "Sonolus là gì?",
-    "body": "Không như những trò chơi âm nhạc bình thường, **Sonolus là một trò chơi âm nhạc theo kiểu framework**.\nAi cũng có thể tự tạo ra chế độ chơi cho riêng họ trong Sonolus, hoặc bạn có thể tự tạo server để cùng những người khác tận hưởng."
+    "body": "Không như những trò chơi âm nhạc bình thường, **Sonolus là một trò chơi âm nhạc theo kiểu framework**.\nBất kì ai cũng có thể tự tạo riêng cho mình nhiều thể loại trò chơi trong Sonolus, hoặc tự host máy chủ để những người khác chơi và tận hưởng!"
   },
   "install-ios": {
     "title": "Cài đặt Sonolus trên iOS",
@@ -34,6 +34,10 @@
   "change-item": {
     "title": "Làm cách nào để tôi có thể đổi skin/nền/SFX/Hiệu ứng?",
     "body": "Trước khi bắt đầu một map nào đó, hãy nhấn __Thiết lập__ và thay đổi chúng tại đây.\nBạn cũng có thể dùng skin từ những server khác, ví dụ như sử dụng skin của PrjSekai cho những map của Bandori."
+  },
+  "chart": {
+    "title": "Làm cách nào để tôi tự tạo level?",
+    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\nTải level của bạn lên tại: <https://cc.sevenc7c.com/>"
   },
   "studio": {
     "title": "Làm cách nào để tạo skin/SFX/background?",
