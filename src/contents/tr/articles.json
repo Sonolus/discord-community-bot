@@ -1,0 +1,98 @@
+{
+  "what-is": {
+    "title": "Sonolus nedir?",
+    "body": "Geleneksel bir ritim oyununun aksine, **Sonolus daha çok bir ritim oyunu iskeletine benzer**.\nHerkes, Sonolus'ta kendi benzersiz ritim oyunu modlarını oluşturabilir veya diğer insanların katılıp keyif alması için kendi sunucularını oluşturabilir!"
+  },
+  "install-ios": {
+    "title": "Sonolus' u iOS' a yükleme",
+    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nBilgisayar ile yapılan dolaylı yükleme en güvenilir yöntemdir. Şu anda bilgisayar seçeneği olmayan ücretsiz bir dolaylı yükleme seçeneği bulunmamaktadır.\nDolaylı yükleme için jailbreak yapmanıza **GEREK YOKTUR**."
+  },
+  "install-android": {
+    "title": "Sonolus' u Android' e yükleme",
+    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/getting-started/installing/android.html#sideload>\nKurulumda sorun yaşıyorsanız, Google' a \"`Cihazınızın adı` sideload\" yazın ve kılavuzları izleyin."
+  },
+  "servers": {
+    "title": "Şarkıları nasıl oynarım? Sunucuları nerede bulabilirim?",
+    "body": "**Oynamak istediğiniz sunucuyu oyunda ekleyin, listesini de buradan bulabilirsiniz:** <#710550213231640627>\nBir sunucu eklemek için __Sunucu adresi__' ne `(https://...)` dokunun > Sunucu adı altındaki __Sonolus'ta Aç__ düğmesine dokunun > Bu şekilde sunucu Sonolus'ta açılır > __Kaydet__ düğmesine dokunun.\n\nDilediğiniz kadar sunucu ekleyebilirsiniz."
+  },
+  "note-speed": {
+    "title": "Nota hızını nasıl değiştirebirim?",
+    "body": "Bir seviyeyi oynamaya başlamadan önce şu şekilde ilerleyin: __Yapılandır__ > __Seçenekler__ > __Nota Hızı__"
+  },
+  "offset-basic": {
+    "title": "Oyunum ritimsiz/senkronize değil!",
+    "body": "__Cihazın Ses Denge Ayarı__' nı ayarlamanız gerekir (diğer denge ayarlarını 0'da tutun)\nDenge ayarları her cihaz için farklıdır, çoğu cihaz için 0 denge ayarı doğru olandır.\n\nDoğru şekilde ayarlamak için __Otomatik Yürütme__ ayarını açın, ses ve görselin aynı hizada olup olmadığına bakarak ayarlayın."
+  },
+  "offset-advanced": {
+    "title": "Her denge ayarının işlevi nedir?",
+    "body": "__Cihazın Ses Denge Ayarı__: Cihazınızın ses denge ayarı. Ses ve görüntüyü senkronize etmek için bu ayarı kullanın.\n__Seviyenin Ses Denge Ayarı__: Bu seviye için ekstra ses denge ayarı, yalnızca seviyenin senkronizasyonu kötü olduğu zamanda kullanılmalıdır.\n__Sunucunun Ses Denge Ayarı__: Bu sunucunun bütün seviyeleri için ses denge ayarı, yalnızca bütün sunucunun senkronizasyonu kötü olduğu zamanda kullanılmalıdır.\n__Cihazın Girdi Denge Ayarı__: Cihazınızın girdi denge ayarı. Girdiyi senkronize etmek için bu ayarı kullanın.\n__Motorun Girdi Denge Ayarı__: Bu motoru kullanan bütün seviyeler için ses denge ayarı, yalnızca motorla ilgili bir sorun olduğu zamanda kullanılmalıdır."
+  },
+  "all-miss": {
+    "title": "Sürekli Miss yapıyorum??",
+    "body": "__Cihazın Girdi Denge Ayarı__' nı ve __Motorun Girdi Denge Ayarı__' nı kontrol edin. Ne işe yaradıklarını bilmiyorsanız, ayarını 0' a getirmeniz yeterlidir."
+  },
+  "change-item": {
+    "title": "Dokuyu/arkaplanı/SFX' i/partikül efektini nasıl değiştiririm?",
+    "body": "Bir seviyeyi oynamaya başlamadan önce __Yapılandır__ ayarına tıklayın ve bunları orada değiştirin.\nAyrıca başka bir sunucudan bir doku da seçebilirsiniz, örnek olarak Bandori seviyeleri için Project Sekai görünümünü kullanabilirsiniz."
+  },
+  "chart": {
+    "title": "Kendi chartlarımı nasıl yapabilirim?",
+    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\nChartını yüklemek için: <https://cc.sevenc7c.com/>"
+  },
+  "studio": {
+    "title": "Kendi dokularımı/arkaplanımı/SFX' imi nasıl yapabilirim?",
+    "body": "https://studio.sonolus.com/"
+  },
+  "judgment-color": {
+    "title": "Perfect/Great/Good/Miss' in farklı renklere sahip olmasını nasıl sağlayabilirim?",
+    "body": "__Ayarlar__ > __Kullanıcı Arayüzü (UI)__ > __Perfect/Great/Good/Miss Yargı Renkleri__."
+  },
+  "judgment-error-color": {
+    "title": "Erken/Geç yargıların farklı renklere sahip olmasını nasıl sağlayabilirim?",
+    "body": "__Ayarlar__ > __Kullanıcı Arayüzü (UI)__ > __Pozitif/Negatif Yargı Renkleri__."
+  },
+  "combo-color": {
+    "title": "All Perfect/Full Combo/Pass/Fail' in farklı renklere sahip olmasını nasıl sağlayabilirim?",
+    "body": "__Ayarlar__ > __Kullanıcı Arayüzü (UI)__ > __All Perfect/Full Combo/Pass/Fail Yargı Renkleri__."
+  },
+  "ui": {
+    "title": "Duraklat düğmesi çok küçük/Kullanıcı arayüzünü nasıl özelleştirebilirim?",
+    "body": "Bir seviyeyi oynamaya başlamadan önce şu şekilde ilerleyin: __Yapılandır__ > __Kullanıcı Arayüzü (UI)__.Türü, boyutu, saydamlığı ve animasyonu ayarlayabilirsiniz."
+  },
+  "genre": {
+    "title": "İstediğim tarz şarkıları nereden bulabilirim?",
+    "body": "Bilemiyoruz, ama <#710550213231640627> kanalındaki bazı sunuculara göz atıp hoşunuza giden bir şey bulabilirsiniz!"
+  },
+  "magic": {
+    "title": "Oyun izlediğim YouTube videolarında farklı görünüyordu, nasıl öyle görünmesini sağlayabilirim?",
+    "body": "Video montajla kandırıldınız. Ya özel dijital varlık (digital asset) kullanan sunucular ile yapıyorlar, ya da bunu sonrasında düzenliyorlar."
+  },
+  "sekai-viewer-slow": {
+    "title": "Project Sekai resmi chart sunucusundaki yeni şarkılar çalışmıyor.",
+    "body": "Yeni eklenen şarkılar için Sekai Viewer' ın bunları işlemesi biraz zaman alır. Hazır olmaları için biraz bekleyin."
+  },
+  "testflight-update": {
+    "title": "Sonolus' u TestFlight' ta güncelleyemiyorum.",
+    "body": "Sonolus' u ilk yüklediğiniz zamanki Apple Kimliğini kullandığınızdan emin olun."
+  },
+  "update-keep-collection": {
+    "title": "Sonolus' u güncellersem koleksiyonlarımı kaybeder miyim?",
+    "body": "Hayır, kaldırmadığınız ve yalnızca üzerine yüklediğiniz sürece bir sorun olmayacaktır."
+  },
+  "sideload-expire": {
+    "title": "Sonolus' u, iOS' a dolaylı yükledim ama bugün çalışmayı bıraktı.",
+    "body": "Bir imza (signature) yalnızca 7 gün sürer, süresi dolduğunda da `.ipa` dosyasını tekrar imzalayıp dolaylı yüklemeniz gerekir. Bazı dolaylı yükleme araçları (örneğin AltStore) bunu sizin için otomatik olarak yapacaktır."
+  },
+  "free-up-space": {
+    "title": "Sonolus çok fazla yer kaplıyor, ne yapmalıyım?",
+    "body": "__Ayarlar__ > __Depo__ > __Depoyu Ayarla__ > __Sil__ yolundan gitmeniz, fazla olan alanı boşaltmalı (koleksiyonlarınız güvende olacak)"
+  },
+  "black-screen": {
+    "title": "Sonolus tamamen siyah.",
+    "body": "Bir seviyeyi oynamaya başlamadan önce şu yoldan ilerleyin: __Yapılandırma__ > __Seçenekler__ > __Yatay/Dikey Sahne Örtüsü__, ve ayarın %0' da olduğundan emin olun."
+  },
+  "find": {
+    "title": "Bir YouTube videosunda gördüğüm bu seviyeyi bulmak istiyorum, nasıl yapabilirim?",
+    "body": "Bu sunucuya gidin ve videoda görebileceğiniz herhangi bir metni arayın: sarkı adı, sanatçı adı, yaratıcı adı, `#ID`, açıklama."
+  }
+}
