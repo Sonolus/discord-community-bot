@@ -1,98 +1,98 @@
 {
   "what-is": {
-    "title": "Sonolus란?",
+    "title": "Sonolus가 무엇입니까?",
     "body": " Sonolus는 기존의 리듬 게임과 달리 **리듬 게임 프레임워크**에 가깝습니다.\n누구든지 Sonolus에서 자신의 리듬 게임 모드를 만들거나, 다른 사람들이 참여하여 즐길 수 있도록 자신만의 서버를 호스팅할 수 있습니다!"
   },
   "install-ios": {
-    "title": "iOS에 Sonolus 설치하기",
-    "body": "**사이드로드**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#컴퓨터를-통한-사이드로드>\nPC를 사용한 사이드로드가 가장 안정적인 방법입니다. 현재 무료로 PC를 사용하지 않고 사이드로드를 할 수 있는 방법은 없습니다.\n사이드로드를 위해 탈옥할 필요가 **없습니다**."
+    "title": "iOS에 Sonolus 설치",
+    "body": "**사이드로드**: <https://wiki.sonolus.com/getting-started/ko/installing/ios.html#컴퓨터를-통한-사이드로드>\nPC를 사용한 사이드로드가 가장 안정적인 방법입니다. 현재 무료로 PC를 사용하지 않고 사이드로드를 할 수 있는 방법은 없습니다.\n사이드로드를 위해 **탈옥할 필요는 없습니다**."
   },
   "install-android": {
     "title": "Android에 Sonolus 설치",
     "body": "**사이드로드**: <https://wiki.sonolus.com/getting-started/ko/installing/android.html#사이드로드>\n설치하는 데 문제가 있는 경우 구글에 \"(자신의 기기 이름) apk 설치법\" 검색이 도움이 될 겁니다."
   },
   "servers": {
-    "title": "서버는 어디서 찾고 어떻게 플레이하나요?",
-    "body": "**하고 싶은 서버를 추가해서 플레이하시면 됩니다. 서버 목록은 **<#710550213231640627>**에서 확인할 수 있습니다.**\n추가하려면 __커스텀 서버__ > __추가__를 클릭하고 원하는 이름을 지정한 다음 서버 링크(`https://...`)를 __주소__에 붙여넣고, 원하는 이름을 입력하면 됩니다."
+    "title": "서버가 무엇이며 곡은 어떻게 플레이합니까?",
+    "body": "**하고 싶은 서버를 추가해서 플레이하시면 됩니다. 서버 목록은 **<#710550213231640627>**에서 확인할 수 있습니다.**\n추가하려면 __맞춤 서버__ > __추가__를 클릭하고 원하는 이름을 지정한 다음 서버 링크(`https://...`)를 __주소__에 붙여넣고, 원하는 이름을 입력하면 됩니다."
   },
   "note-speed": {
-    "title": "노트 속도는 어떻게 바꾸나요?",
+    "title": "노트 속도를 변경하고 싶습니다.",
     "body": "레벨을 선택하고 __레벨 설정__ > __옵션__ > __노트 속도__를 변경하시면 됩니다."
   },
   "offset-basic": {
-    "title": "노래랑 싱크가 안 맞아요!",
+    "title": "박자가 맞지 않습니다!",
     "body": "__기기 오디오 오프셋__을 조정해야 합니다 (다른 오프셋은 0으로 유지).\n오프셋은 기기마다 다르지만 대부분 0으로 하는게 정확합니다.\n\n오프셋을 적절하게 조정하려면 __자동 플레이__를 켜고 소리와 보이는 것이 싱크가 맞는지 확인해가면서 조정하시는 걸 추천드립니다."
   },
   "offset-advanced": {
-    "title": "오프셋이 여러가지인데 각각 무슨 역할을 하나요?",
+    "title": "각 오프셋이 어떠한 역할을 합니까?",
     "body": "__기기 오디오 오프셋__: 기기의 오디오 오프셋. 소리와 보이는 것의 싱크를 맞추는 데 유용합니다.\n__레벨 오디오 오프셋__: 레벨의 오디오 오프셋. 이 레벨의 싱크만 유독 이상할 때 유용합니다.\n__서버 오디오 오프셋__: 서버의 오디오 오프셋. 이 서버의 레벨들의 싱크가 맞지 않을때 유용합니다.\n__기기 입력 오프셋__: 기기의 입력 오프셋. 입력 싱크를 조정하는 데 유용합니다.\n__엔진 입력 오프셋__: 엔진의 입력 오프셋. 이 엔진의 모든 레벨들이 싱크가 맞지 않을때 유용합니다."
   },
   "all-miss": {
-    "title": "노트를 쳐도 다 미스나요!",
+    "title": "계속 미스가 납니다!",
     "body": "__기기 입력 오프셋__ 과 __엔진 입력 오프셋__을 확인해보십시오. 그게 뭔지 모르면 0에 놔두시면 됩니다."
   },
   "change-item": {
-    "title": "스킨/배경/SE/탭 이펙트는 어떻게 바꾸나요?",
+    "title": "스킨/배경/효과음/입자 효과를 바꾸고 싶습니다.",
     "body": "레벨을 선택하고 __레벨 설정__에서 변경하실 수 있습니다.\n다른 서버의 스킨도 사용할 수 있습니다. 예를 들어 뱅드림에서 프로젝트 세카이의 스킨을 사용할 수도 있답니다!"
   },
   "chart": {
-    "title": "채보는 어떻게 제작하나요?",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld: <https://github.com/crash5band/MikuMikuWorld>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\n채보 업로드: <https://cc.sevenc7c.com/>"
+    "title": "채보를 제작하고 싶습니다.",
+    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld4CC: <https://github.com/sevenc-nanashi/MikuMikuWorld4CC>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\n채보 업로드: <https://cc.sevenc7c.com/>"
   },
   "studio": {
-    "title": "스킨/배경/SE 제작은 어떻게 하나요?",
+    "title": "스킨/배경/효과음을 제작하고 싶습니다.",
     "body": "https://studio.sonolus.com/"
   },
   "judgment-color": {
-    "title": "Perfect/Great/Good/Miss 색상을 다르게 하고싶은데 어떻게 바꾸나요?",
+    "title": "Perfect/Great/Good/Miss 색상을 변경하고 싶습니다.",
     "body": "__설정__ > __UI__ > __Perfect/Great/Good/Miss 판정 색__."
   },
   "judgment-error-color": {
-    "title": "Early/Late 색상을 다르게 하고싶은데 어떻게 바꾸나요?",
+    "title": "Early/Late 색상을 변경하고 싶습니다.",
     "body": "__설정__ > __UI__ > __긍정적/부정적 특수 판정 색__."
   },
   "combo-color": {
-    "title": "AP/FC/Pass/Fail 색상을 다르게 하고싶은데 어떻게 바꾸나요?",
+    "title": "AP/FC/Pass/Fail 색상을 변경하고 싶습니다.",
     "body": "__설정__ > __UI__ > __AP/FC/Pass/Fail 콤보 색__."
   },
   "ui": {
-    "title": "일시정지 버튼이 너무 작아요/게임 UI를 내맘대로 바꿀 수 있나요?",
+    "title": "일시정지 버튼 등의 게임 UI를 맞춤 설정하고 싶습니다.",
     "body": "레벨을 선택하고 __레벨 설정__ > __UI__에서 유형, 크기, 투명도, 애니메이션을 조정할 수 있습니다."
   },
   "genre": {
-    "title": "~ 같은 장르의 노래는 어디서 찾나요?",
+    "title": "특정 장르의 곡을 찾고 싶습니다.",
     "body": "정확히는 모르지만<#710550213231640627> 에 있는 서버 중에서 찾을 수 있을수도 있습니다!"
   },
   "magic": {
-    "title": "유튜브에서 본 영상이랑 게임이 조금 다르게 생겼던데, 그렇게 설정할 수 있나요?",
-    "body": "그거 다 편집입니다. 영상 제작자 본인이 수정해서 사용하는 것이거나 편집일 겁니다."
+    "title": "유튜브 영상과 레벨이 달라 보이는데 어떻게 설정합니까?",
+    "body": "전부 편집입니다. 영상 제작자 본인이 수정해서 사용하는 것이거나 편집일 겁니다."
   },
   "sekai-viewer-slow": {
-    "title": "프로젝트 세카이 공식 채보 서버에 있는 신곡들이 플레이가 안돼요.",
+    "title": "프로젝트 세카이 공식 채보 서버의 신규 곡을 플레이할 수 없습니다.",
     "body": "신곡의 경우엔 Sekai Viewer (채보 제공자) 쪽에서 처리하는데 시간이 조금 걸립니다. 조금만 기다리면 플레이가 가능해질 겁니다!"
   },
   "testflight-update": {
-    "title": "TestFlight에서 Sonolus 업데이트가 안돼요.",
+    "title": "TestFlight에서 Sonolus를 업데이트할 수 없습니다.",
     "body": "Sonolus를 설치할 때랑 똑같은 Apple ID를 사용하고 있는지 확인해 보십시오."
   },
   "update-keep-collection": {
-    "title": "Sonolus를 업데이트하면 컬렉션이 다 사라지나요?",
-    "body": "삭제하지만 않는다면 컬렉션은 사라지지 않습니다!"
+    "title": "Sonolus를 업데이트해도 모음집이 유지됩니까?",
+    "body": "앱을 삭제하지 않는 한 모든 것은 안전할 겁니다."
   },
   "sideload-expire": {
-    "title": "iOS에 Sonolus를 사이드로드 했는데, 갑자기 작동이 안돼요.",
-    "body": "무료로 사이드로드한 앱들은 7일 동안만 작동하며, 그 후엔 다시 사이드로드를 해주어야 합니다. 일부 사이드로드 도구(예를 들어 AltStore)들은 이걸 자동으로 해준답니다."
+    "title": "사이드로드를 통한 Sonolus가 iOS에서 갑자기 실행이 되지 않습니다.",
+    "body": "무료로 사이드로드한 앱들은 7일 동안만 작동하며, 그 후엔 다시 사이드로드를 해주어야 합니다. 일부 사이드로드 도구(예를 들어 AltStore)들은 이를 자동으로 수행해 줍니다."
   },
   "free-up-space": {
-    "title": "Sonolus 용량이 너무 커요. 어떻게 해야 하나요?",
-    "body": "__설정__ > __저장소__ > __관리__ > __삭제__를 누르면 저장 공간에 여유가 생길겁니다! (컬렉션은 안전합니다)"
+    "title": "Sonolus가 너무 많은 저장 공간을 차지합니다.",
+    "body": "__설정__ > __저장소__ > __관리__ > __삭제__를 누르면 저장 공간에 여유가 생길 겁니다 (모음집은 안전합니다)."
   },
   "black-screen": {
-    "title": "Sonolus가 검정 화면이에요.",
-    "body": "레벨을 시작하기 전, __레벨 설정__ > __옵션__ > __수평/수직 가리개__ 옵션들을 0%로 바꿔 주십시오."
+    "title": "Sonolus에 검은 화면만 뜹니다.",
+    "body": "레벨을 시작하기 전, __레벨 설정__ > __옵션__ > __수평/수직 가리개__ 옵션들을 0%로 바꾸십시오."
   },
   "find": {
-    "title": "유튜브 영상에서 본 레벨을 찾고 싶어요. 어떻게 찾나요?",
-    "body": "해당 게임 서버로 가서 영상에서 찾을 수 있는 글씨들을 검색해 보십시오 (노래 이름, 가수/작곡가 이름, 제작자 이름, 왼쪽 위의 #ID, 설명 등)"
+    "title": "유튜브 영상에서 본 레벨을 찾고 싶습니다.",
+    "body": "영상에서 찾을 수 있는 글자들을 해당 서버에서 검색해 보십시오 (곡명, 가수/작곡가, 제작자, 좌측 상단 `#ID`, 설명 등)."
   }
 }

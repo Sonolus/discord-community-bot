@@ -13,7 +13,7 @@
   },
   "servers": {
     "title": "如何遊玩歌曲？在哪裡能找到伺服器？",
-    "body": "**直接添加想玩的伺服器即可，伺服器列表在這裡：<#710550213231640627>**\n要添加伺服器，點擊 __自定義伺服器__ > __添加__，把伺服器地址（`https://...`）輸入到 __地址__ 中，然後填寫名字（隨意起名）。"
+    "body": "**直接添加想玩的伺服器即可，伺服器列表在這裡：<#710550213231640627>**\n要添加伺服器，點擊 __自定義伺服器__ > __添加__，把伺服器地址（`https://...`）輸入到 __地址__ 中，然後填寫名字（隨意起名）。\n\n您可以添加無限量的伺服器。"
   },
   "note-speed": {
     "title": "如何調整下落速度？",
@@ -34,6 +34,10 @@
   "change-item": {
     "title": "如何更換佈景/背景/SE/粒子效果？",
     "body": "在開始關卡前，點擊 __配置__ 後更換。\n您也可以從其他服務器裡選擇一個佈景/背景/SE/粒子效果，例如把世界計劃的佈景用在BanG Dream!關卡中。"
+  },
+  "chart": {
+    "title": "如何製作自己的譜面/關卡？",
+    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld4CC: <https://github.com/sevenc-nanashi/MikuMikuWorld4CC>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\n將您的譜面上載至: <https://cc.sevenc7c.com/>"
   },
   "studio": {
     "title": "如何製作我自己的佈景/背景/SE?",
