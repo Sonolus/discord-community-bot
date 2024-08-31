@@ -5,7 +5,7 @@
   },
   "install-ios": {
     "title": "Cài đặt Sonolus trên iOS",
-    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/vi/installing/ios.html#testflight-cua-apple>\n** Hết chỗ** cho đến <t:4084662000>, không đảm bảo việc bạn có thể tham gia.\n\n** Cài đặt bên ngoài**: <https://wiki.sonolus.com/getting-started/vi/installing/ios.html#cai-%C4%91at-ben-ngoai-qua-pc>\ncài đặt qua PC là cách được dùng nhiều nhất. không có cách nào để bạn cài đặt mà không qua PC.\nbạn ** Không cần** phải jailbreak để cài đặt."
+    "body": "**TestFlight**: <https://wiki.sonolus.com/getting-started/vi/installing/ios.html#testflight-cua-apple>\n\n**Cài đặt bên ngoài**: <https://wiki.sonolus.com/getting-started/vi/installing/ios.html#cai-%C4%91at-ben-ngoai-qua-pc.\n\nCài đặt qua PC là cách được dùng nhiều nhất. không có cách nào để bạn cài đặt mà không qua PC.\nbạn.\n**KHÔNG CẦN** phải jailbreak để cài đặt."
   },
   "install-android": {
     "title": "Cài đặt Sonolus trên Android",
@@ -13,7 +13,7 @@
   },
   "servers": {
     "title": "Làm cách nào để chơi? Tôi có thể tìm sever ở đâu?",
-    "body": "**Bạn chỉ cần chọn server mà bạn muốn, bạn xóa thể tìm trên nhóm hoặc quá danh sách dưới đây: <#710550213231640627>**\nĐể thêm sever, nhấn vào __ Thêm server__ > __ Thêm__, rồi đặt tên cho nó (Cái gì cũng được), và dán địa chỉ server  (`https://...`) vào ô __Địa chỉ__."
+    "body": "**Bạn chỉ cần chọn server mà bạn muốn, bạn xóa thể tìm trên nhóm hoặc quá danh sách dưới đây: <#710550213231640627>**\nĐể thêm sever, nhấn vào __ Thêm server__ > __ Thêm__, rồi đặt tên cho nó (cái gì cũng được), và dán địa chỉ server (`https://...`) vào ô __Địa chỉ__."
   },
   "note-speed": {
     "title": "Làm thế nào để chỉnh tốc độ nốt nhạc?",
@@ -21,7 +21,7 @@
   },
   "offset-basic": {
     "title": "Làm thế nào nếu game không theo nhịp?",
-    "body": "Bạn chỏ cần chỉnh  __Độ trễ âm thanh trên thiết bị__ (những cái khác để mặc định là 0)\nĐộ trễ sẽ khác nhau trên từng thiết bị. **iOS**: thì trên dưới 50. **Android**: trên dưới từ 50 cho đến 200.\n\nĐể chỉnh độ chễ một cách hợp lí, hãy bật chế độ  __Tự động__,.để ý kĩ xem âm thanh đã đồng bộ chưa, từ đó mà điều chỉnh sao cho hợp lý."
+    "body": "Bạn chỉ cần chỉnh  __Độ trễ âm thanh trên thiết bị__ (những cái khác để mặc định là 0)\nĐộ trễ sẽ khác nhau trên từng thiết bị. **iOS**: thì trên dưới 50. **Android**: trên dưới từ 50 cho đến 200.\n\nĐể chỉnh độ chễ một cách hợp lí, hãy bật chế độ  __Tự động__,.để ý kĩ xem âm thanh đã đồng bộ chưa, từ đó mà điều chỉnh sao cho hợp lý."
   },
   "offset-advanced": {
     "title": "Những loại chỉnh độ trễ trong game là gì?",
@@ -48,7 +48,7 @@
     "body": "__Cài đặt__ > __UI__ > __Perfect/Great/Good/Miss Judgment Color__."
   },
   "judgment-error-color": {
-    "title": "Làm cách để đổi màu của Judgment error(sớm/trễ)?",
+    "title": "Làm cách để đổi màu của Judgment error (sớm/trễ)?",
     "body": "__Cài đặt__ > __UI__ > __Positive/Negative Judgment Error Color__."
   },
   "combo-color": {
@@ -65,34 +65,34 @@
   },
   "magic": {
     "title": "Sao tôi nhìn thấy nó khác với những phiên bản trên YT vậy?",
-    "body": "Anh bạn à....ảnh bạn dễ bị lừa quá..haizz..video trên YT không phải phiên bản chính thức đâu."
+    "body": "Anh bạn à... anh bạn dễ bị lừa thế nhỉ? Mấy video kiểu đó trên Youtube không phải là game chính thức đâu.\n\nMột là họ đang tự host asset trên server riêng, hoặc là họ sửa video ở giai đoạn hậu kỳ."
   },
   "sekai-viewer-slow": {
     "title": "Map mới trong Project Sekai không hoạt đông.",
-    "body": "thường thì những map mới cần một lúc thì bạn mới có thể chơi, nên xin hãy kiên nhẫn khi có map mới."
+    "body": "Xin bạn hãy kiên nhẫn chờ đợi một lúc, Sekai Viewer cần ít thời gian để đọc map mới ra."
   },
   "testflight-update": {
-    "title": "Tôi không thể cập nhập Sonolú qua Testflight",
+    "title": "Tôi không thể cập nhật Sonolus qua Testflight",
     "body": "Hãy chắc chắn rằng bạn đang sử dụng đúng tài khoản Apple ID mà bạn dùng để tham gia."
   },
   "update-keep-collection": {
-    "title": "Tôi có bị mất bộ sưu tập nếu tôi cập nhập Sonolus không?",
-    "body": "Nó sẽ không mất nếu bạn chỉ ghi đè (cập nhật bên ngoài)."
+    "title": "Tôi có bị mất bộ sưu tập nếu tôi cập nhật Sonolus không?",
+    "body": "Không, nếu bạn cài đè. Thường thì mọi thứ sẽ an toàn ***miễn là bạn đừng nhấn nút \"Gỡ cài đặt\"!***"
   },
   "sideload-expire": {
     "title": "Tôi cài đặt Sonolus trên iOS bằng cách cài đặt bên ngoài (sideload) và tôi không thể chơi được nữa.",
     "body": "Chữ kí của ứng dụng chỉ tồn tại trong 7 ngày, bạn sẽ phải kí rồi cài đặt lại file \".ipa\". Một số ứng dụng sideload (như AltStore) sẽ tự động làm viêc này cho bạn."
   },
   "free-up-space": {
-    "title": "Sonolus chiếm nhiều dùng lượng quá!",
+    "title": "Sonolus chiếm nhiều dung lượng quá!",
     "body": "__Cài đặt__ > __Repository__ > __Quanr lý__ > __Xoá__, làm viêc này sẽ giúp bạn có nhiều dùng lượng hơn dù không nhiều lắm (bộ sưu tập vẫn ăn toàn)"
   },
   "black-screen": {
     "title": "Sao màn hình của tôi đen thui thế này?",
-    "body": "Bạn vào thiết lập map và kiểm tra  độ che ngang/dọc và chỉnh về 0%.\nNếu bạn vẫn không thể nhìn thấy gì, thì nó là 1 lỗi trên vài thiết bị Android (Thường là cũ hoặc yếu) và đương nhiên ĐT bạn cũng có. Nếu bạn muốn giúp chúng tôi, vui lòng vào mục #help-and-support gửi ảnh hoặc doạn code chứa lỗi."
+    "body": "Bạn vào thiết lập map và kiểm tra độ che ngang/dọc và chỉnh về 0%.\n\nNếu bạn vẫn không thể nhìn thấy gì, thì nó là lỗi trên vài thiết bị Android (thường là do cũ hoặc yếu), và đương nhiên ĐT bạn cũng có.\n\nNếu bạn muốn giúp chúng tôi, vui lòng vào mục #help-and-support gửi ảnh hoặc đoạn code chứa lỗi."
   },
   "find": {
-    "title": "Làm cách nào để  tìm map mà tôi vừa xem trên YT?",
+    "title": "Làm cách nào để tìm map mà tôi vừa xem trên YouTube?",
     "body": "Vào server mà bạn cần tìm và  nhập những gì bạn thấy trong tiêu đề hoặc trong video: tên bài hát, nghệ sĩ, tên tác giả, `#ID`, hoặc những thứ trong mô tả."
   }
 }
