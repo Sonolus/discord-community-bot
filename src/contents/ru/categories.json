@@ -1,7 +1,7 @@
 {
-  "installing-updating": "Установка/Обновление",
-  "getting-started": "Начало работы",
-  "advanced": "Продвинутое",
-  "troubleshooting": "Поиск неисправностей",
-  "miscellaneous": "Разнообразие"
+  "installing-updating": "Установка/Обновление игры",
+  "getting-started": "Знакомство с игрой",
+  "advanced": "Для освоившихся",
+  "troubleshooting": "Исправление проблем",
+  "miscellaneous": "Прочее"
 }
