@@ -4,7 +4,8 @@
         "install-android",
         "testflight-update",
         "update-keep-collection",
-        "sideload-expire"
+        "sideload-expire",
+        "testflight-code"
     ],
     "getting-started": ["servers", "offset-basic", "note-speed", "change-item", "find"],
     "advanced": [
