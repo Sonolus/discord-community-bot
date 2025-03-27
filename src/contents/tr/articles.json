@@ -5,11 +5,11 @@
   },
   "install-ios": {
     "title": "Sonolus' u iOS' a yükleme",
-    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nBilgisayar ile yapılan dolaylı yükleme en güvenilir yöntemdir. Şu anda bilgisayar seçeneği olmayan ücretsiz bir dolaylı yükleme seçeneği bulunmamaktadır.\nDolaylı yükleme için jailbreak yapmanıza **GEREK YOKTUR**."
+    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/tr/getting-started/installing/ios#bilgisayar-ile-dolayl%C4%B1-yukleme>\nBilgisayar ile yapılan dolaylı yükleme en güvenilir yöntemdir. Şu anda bilgisayar seçeneği olmayan ücretsiz bir dolaylı yükleme seçeneği bulunmamaktadır.\nDolaylı yükleme için jailbreak yapmanıza **GEREK YOKTUR**."
   },
   "install-android": {
     "title": "Sonolus' u Android' e yükleme",
-    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/getting-started/installing/android.html#sideload>\nKurulumda sorun yaşıyorsanız, Google' a \"`Cihazınızın adı` sideload\" yazın ve kılavuzları izleyin."
+    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/tr/getting-started/installing/android#dolayl%C4%B1-yukleme-sideload>\nKurulumda sorun yaşıyorsanız, Google' a \"`Cihazınızın adı` sideload\" yazın ve kılavuzları izleyin."
   },
   "servers": {
     "title": "Şarkıları nasıl oynarım? Sunucuları nerede bulabilirim?",
@@ -37,7 +37,7 @@
   },
   "chart": {
     "title": "Kendi chartlarımı nasıl yapabilirim?",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld4CC: <https://github.com/sevenc-nanashi/MikuMikuWorld4CC>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\nChartını yüklemek için: <https://cc.sevenc7c.com/>"
+    "body": "**Horizon**\n<https://horizon-editor.sonolus.com>\nChartını yüklemek için: <https://coconut.sonolus.com/horizon/>\n\n**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld4CC: <https://github.com/sevenc-nanashi/MikuMikuWorld4CC>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\nChartını yüklemek için: <https://cc.sevenc7c.com/>"
   },
   "studio": {
     "title": "Kendi dokularımı/arkaplanımı/SFX' imi nasıl yapabilirim?",

@@ -5,11 +5,11 @@
     },
     "install-ios": {
         "title": "Install Sonolus on iOS",
-        "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nSideload with PC is the most reliable method. Currently there is no free sideload without PC option.\nYou **DO NOT** need to jailbreak to sideload."
+        "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios#sideload-with-pc>\nSideload with PC is the most reliable method. Currently there is no free sideload without PC option.\nYou **DO NOT** need to jailbreak to sideload."
     },
     "install-android": {
         "title": "Install Sonolus on Android",
-        "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/android.html#sideload>\nIf you are having trouble installing, try Google “`your device name` sideload” and follow guides."
+        "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/android#sideload>\nIf you are having trouble installing, try Google “`your device name` sideload” and follow guides."
     },
     "servers": {
         "title": "How do I play songs? Where can I find servers?",
@@ -37,7 +37,7 @@
     },
     "chart": {
         "title": "How do I make my own charts?",
-        "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld4CC: <https://github.com/sevenc-nanashi/MikuMikuWorld4CC>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\nUpload your chart to: <https://cc.sevenc7c.com/>"
+        "body": "**Horizon**\n<https://horizon-editor.sonolus.com>\nUpload your chart to: <https://coconut.sonolus.com/horizon/>\n\n**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld4CC: <https://github.com/sevenc-nanashi/MikuMikuWorld4CC>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\nUpload your chart to: <https://cc.sevenc7c.com/>"
     },
     "studio": {
         "title": "How do I make my own skins/background/SFX?",
@@ -77,7 +77,7 @@
     },
     "testflight-code": {
         "title": "What's the invite code for TestFlight?",
-        "body": "Sonolus doesn't do invites via the TestFlight code system.\nLook at <#696600725769420840> instead for planned openings.\nWhen it's time, simply click the link on the [Sonolus website](https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight).\nTimes shown in the announcement are in your timezone."
+        "body": "Sonolus doesn't do invites via the TestFlight code system.\nLook at <#696600725769420840> instead for planned openings.\nWhen it's time, simply click the link on the [Sonolus website](https://wiki.sonolus.com/getting-started/installing/ios#apple-s-testflight).\nTimes shown in the announcement are in your timezone."
     },
     "update-keep-collection": {
         "title": "If I update Sonolus, will I lose my collections?",

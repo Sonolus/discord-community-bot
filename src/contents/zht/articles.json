@@ -5,11 +5,11 @@
   },
   "install-ios": {
     "title": "在iOS上安装Sonolus",
-    "body": "**側載**: <https://wiki.sonolus.com/getting-started/zht/installing/ios.html#%E4%BD%BF%E7%94%A8%E9%9B%BB%E8%85%A6%E5%81%B4%E8%BC%89>\n使用電腦側載是最可靠的方法。目前沒有免費可用的無電腦側載方式。\n側載**不需要**越獄。"
+    "body": "**側載**: <https://wiki.sonolus.com/zht/getting-started/installing/ios#%E4%BD%BF%E7%94%A8%E9%9B%BB%E8%85%A6%E5%81%B4%E8%BC%89>\n使用電腦側載是最可靠的方法。目前沒有免費可用的無電腦側載方式。\n側載**不需要**越獄。"
   },
   "install-android": {
     "title": "在Android上安装Sonolus",
-    "body": "**側載**: <https://wiki.sonolus.com/getting-started/zht/installing/android.html#%E5%81%B4%E8%BC%89>\n如果您在安裝時遇到困難，請嘗試搜尋 “`您的設備名稱` 側載” 並參考相關教程。"
+    "body": "**側載**: <https://wiki.sonolus.com/zht/getting-started/installing/android#%E5%81%B4%E8%BC%89>\n如果您在安裝時遇到困難，請嘗試搜尋 “`您的設備名稱` 側載” 並參考相關教程。"
   },
   "servers": {
     "title": "如何遊玩歌曲？在哪裡能找到伺服器？",
@@ -37,7 +37,7 @@
   },
   "chart": {
     "title": "如何製作自己的譜面/關卡？",
-    "body": "**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld4CC: <https://github.com/sevenc-nanashi/MikuMikuWorld4CC>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\n將您的譜面上載至: <https://cc.sevenc7c.com/>"
+    "body": "**Horizon**\n<https://horizon-editor.sonolus.com>\n將您的譜面上載至: <https://coconut.sonolus.com/horizon/>\n\n**Bestdori**\n<https://bestdori.com/community/charts>\n\n**Chart Cyanvas**\nMikuMikuWorld4CC: <https://github.com/sevenc-nanashi/MikuMikuWorld4CC>\nPaletteWorks: <https://wiki.purplepalette.net/create-charts/editor/paletteworks>\nChed: <https://wiki.purplepalette.net/create-charts/editor/ched>\n將您的譜面上載至: <https://cc.sevenc7c.com/>"
   },
   "studio": {
     "title": "如何製作我自己的佈景/背景/SE?",
