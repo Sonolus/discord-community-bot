@@ -75,6 +75,10 @@
     "title": "No puedo actualizar Sonolus en TestFlight.",
     "body": "Asegúrate de estar usando el mismo Apple ID que usaste cuando instalaste Sonolus por primera vez."
   },
+  "testflight-code": {
+    "title": "¿Cuál es el código de invitación para TestFlight?",
+    "body": "Sonolus no envía invitaciones a través del sistema de códigos TestFlight.\nEn su lugar, consulte <#696600725769420840> para ver las vacantes planificadas.\nCuando llegue el momento, simplemente haga clic en el enlace del [sitio web de Sonolus](https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight).\nLos horarios que se muestran en el anuncio están en la zona horaria local."
+  },
   "update-keep-collection": {
     "title": "Si actualizo Sonolus, ¿perderé mis colecciones?",
     "body": "No, mientras no lo desinstales sino que simplemente lo instales por encima, todo debería estar bien."
