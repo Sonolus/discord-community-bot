@@ -75,6 +75,10 @@
     "title": "Saya tidak bisa memperbaharui Sonolus di TestFlight.",
     "body": "Pastikan Anda menggunakan Apple ID yang sama dengan saat Anda menginstall Sonolus untuk pertama kalinya."
   },
+  "testflight-code": {
+    "title": "Apa kode undangan untuk TestFlight?",
+    "body": "Sonolus tidak mengundang melalui sistem kode TestFlight.\nLihat <#696600725769420840> untuk melihat lowongan yang direncanakan.\nJika sudah waktunya, cukup klik tautan di [situs web Sonolus](https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight).\nWaktu yang ditampilkan dalam pengumuman adalah zona waktu Anda."
+  },
   "update-keep-collection": {
     "title": "Jika saya memperbaharui Sonolus, apakah saya kehilanggan koleksi saya?",
     "body": "Tidak, selama Anda tidak meng-uninstall tetapi hanya menimpa install-an nya, semuanya akan aman."
