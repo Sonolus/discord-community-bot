@@ -5,11 +5,11 @@
   },
   "install-ios": {
     "title": "iOS 上安装 Sonolus",
-    "body": "**侧载**: <https://wiki.sonolus.com/getting-started/zhs/installing/ios.html#pc-%E4%BE%A7%E8%BD%BD>\nPC 侧载是最可靠的方法。目前没有免费可用的无 PC 侧载方式。\n侧载**不需要**越狱。"
+    "body": "**侧载**: <https://wiki.sonolus.com/zhs/getting-started/installing/ios#pc-%E4%BE%A7%E8%BD%BD>\nPC 侧载是最可靠的方法。目前没有免费可用的无 PC 侧载方式。\n侧载**不需要**越狱。"
   },
   "install-android": {
     "title": "安卓上安装 Sonolus",
-    "body": "**侧载**: <https://wiki.sonolus.com/getting-started/zhs/installing/android.html#%E4%BE%A7%E8%BD%BD>\n如果您在安装是有困难，尝试搜索 “`您的设备名称` 侧载” 参考教程。"
+    "body": "**侧载**: <https://wiki.sonolus.com/zhs/getting-started/installing/android#%E4%BE%A7%E8%BD%BD>\n如果您在安装是有困难，尝试搜索 “`您的设备名称` 侧载” 参考教程。"
   },
   "servers": {
     "title": "如何玩歌曲？服务器在哪里？",

@@ -5,11 +5,11 @@
   },
   "install-ios": {
     "title": "Install Sonolus di iOS",
-    "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/id/installing/ios.html#sideload-dengan-pc>\nSideload dengan PC merupakan metode yang paling dapat diandalkan. Saat ini tidak ada pilihan sideload tanpa PC yang gratis.\nAnda **TIDAK** membutuhkan jailbreak untuk sideload."
+    "body": "**Sideload**: <https://wiki.sonolus.com/id/getting-started/installing/ios#sideload-dengan-pc>\nSideload dengan PC merupakan metode yang paling dapat diandalkan. Saat ini tidak ada pilihan sideload tanpa PC yang gratis.\nAnda **TIDAK** membutuhkan jailbreak untuk sideload."
   },
   "install-android": {
     "title": "Install Sonolus di Android",
-    "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/id/installing/android.html#sideload>\nJika Anda memiliki masalah saat menginstall, coba Google \"`nama perangkat Anda` sideload\" dan ikuti panduannya."
+    "body": "**Sideload**: <https://wiki.sonolus.com/id/getting-started/installing/android#sideload>\nJika Anda memiliki masalah saat menginstall, coba Google \"`nama perangkat Anda` sideload\" dan ikuti panduannya."
   },
   "servers": {
     "title": "Bagaimana saya memainkan lagu? Dimana saya menemukan servernya?",
@@ -77,7 +77,7 @@
   },
   "testflight-code": {
     "title": "Apa kode undangan untuk TestFlight?",
-    "body": "Sonolus tidak mengundang melalui sistem kode TestFlight.\nLihat <#696600725769420840> untuk melihat lowongan yang direncanakan.\nJika sudah waktunya, cukup klik tautan di [situs web Sonolus](https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight).\nWaktu yang ditampilkan dalam pengumuman adalah zona waktu Anda."
+    "body": "Sonolus tidak mengundang melalui sistem kode TestFlight.\nLihat <#696600725769420840> untuk melihat lowongan yang direncanakan.\nJika sudah waktunya, cukup klik tautan di [situs web Sonolus](https://wiki.sonolus.com/id/getting-started/installing/ios#testflight-apple).\nWaktu yang ditampilkan dalam pengumuman adalah zona waktu Anda."
   },
   "update-keep-collection": {
     "title": "Jika saya memperbaharui Sonolus, apakah saya kehilanggan koleksi saya?",

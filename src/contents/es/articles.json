@@ -5,11 +5,11 @@
   },
   "install-ios": {
     "title": "Instalar Sonolus en iOS",
-    "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nSideload con PC es el método más confiable. Actualmente no hay una forma de hacer sideload gratuitamente sin una PC.\n**NO** necesitas hacer jailbreak para hacer un sideload."
+    "body": "**Sideload**: <https://wiki.sonolus.com/es/getting-started/installing/ios#sideload-con-pc-descarga-lateral>\nSideload con PC es el método más confiable. Actualmente no hay una forma de hacer sideload gratuitamente sin una PC.\n**NO** necesitas hacer jailbreak para hacer un sideload."
   },
   "install-android": {
     "title": "Instalar Sonolus en Android",
-    "body": "**Sideload**: <https://wiki.sonolus.com/getting-started/installing/android.html#sideload>\nSi tienes problemas para instalar, intenta buscar \"`nombre de tu dispositivo` sideload\" en Google y sigue las instrucciones."
+    "body": "**Sideload**: <https://wiki.sonolus.com/es/getting-started/installing/android#sideload-descarga-lateral>\nSi tienes problemas para instalar, intenta buscar \"`nombre de tu dispositivo` sideload\" en Google y sigue las instrucciones."
   },
   "servers": {
     "title": "¿Cómo juego canciones? ¿Dónde puedo encontrar servidores?",
@@ -77,7 +77,7 @@
   },
   "testflight-code": {
     "title": "¿Cuál es el código de invitación para TestFlight?",
-    "body": "Sonolus no envía invitaciones a través del sistema de códigos TestFlight.\nEn su lugar, consulte <#696600725769420840> para ver las vacantes planificadas.\nCuando llegue el momento, simplemente haga clic en el enlace del [sitio web de Sonolus](https://wiki.sonolus.com/getting-started/installing/ios.html#apple-s-testflight).\nLos horarios que se muestran en el anuncio están en la zona horaria local."
+    "body": "Sonolus no envía invitaciones a través del sistema de códigos TestFlight.\nEn su lugar, consulte <#696600725769420840> para ver las vacantes planificadas.\nCuando llegue el momento, simplemente haga clic en el enlace del [sitio web de Sonolus](https://wiki.sonolus.com/es/getting-started/installing/ios#testflight-de-apple).\nLos horarios que se muestran en el anuncio están en la zona horaria local."
   },
   "update-keep-collection": {
     "title": "Si actualizo Sonolus, ¿perderé mis colecciones?",

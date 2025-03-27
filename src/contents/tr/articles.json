@@ -5,11 +5,11 @@
   },
   "install-ios": {
     "title": "Sonolus' u iOS' a yükleme",
-    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/getting-started/installing/ios.html#sideload-with-pc>\nBilgisayar ile yapılan dolaylı yükleme en güvenilir yöntemdir. Şu anda bilgisayar seçeneği olmayan ücretsiz bir dolaylı yükleme seçeneği bulunmamaktadır.\nDolaylı yükleme için jailbreak yapmanıza **GEREK YOKTUR**."
+    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/tr/getting-started/installing/ios#bilgisayar-ile-dolayl%C4%B1-yukleme>\nBilgisayar ile yapılan dolaylı yükleme en güvenilir yöntemdir. Şu anda bilgisayar seçeneği olmayan ücretsiz bir dolaylı yükleme seçeneği bulunmamaktadır.\nDolaylı yükleme için jailbreak yapmanıza **GEREK YOKTUR**."
   },
   "install-android": {
     "title": "Sonolus' u Android' e yükleme",
-    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/getting-started/installing/android.html#sideload>\nKurulumda sorun yaşıyorsanız, Google' a \"`Cihazınızın adı` sideload\" yazın ve kılavuzları izleyin."
+    "body": "**Dolaylı Yükleme**: <https://wiki.sonolus.com/tr/getting-started/installing/android#dolayl%C4%B1-yukleme-sideload>\nKurulumda sorun yaşıyorsanız, Google' a \"`Cihazınızın adı` sideload\" yazın ve kılavuzları izleyin."
   },
   "servers": {
     "title": "Şarkıları nasıl oynarım? Sunucuları nerede bulabilirim?",
