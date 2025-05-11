@@ -75,6 +75,10 @@
     "title": "TestFlight에서 Sonolus를 업데이트할 수 없습니다.",
     "body": "Sonolus를 설치할 때랑 똑같은 Apple ID를 사용하고 있는지 확인해 보십시오."
   },
+  "testflight-code": {
+    "title": "TestFlight 초대 코드는 무엇입니까?",
+    "body": "Sonolus는 TestFlight의 초대 코드 시스템을 사용하지 않습니다.\n예정된 공석 날짜는<#696600725769420840> 채널을 참고하십시오.\n시간이 되면, [Sonolus 웹사이트](https://wiki.sonolus.com/getting-started/installing/ios#apple-s-testflight)의 링크를 클릭하십시오.\n공지에 여러분의 시간대로 시간이 쓰여 있습니다."
+  },
   "update-keep-collection": {
     "title": "Sonolus를 업데이트해도 모음집이 유지됩니까?",
     "body": "앱을 삭제하지 않는 한 모든 것은 안전할 겁니다."
